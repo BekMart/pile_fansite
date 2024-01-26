@@ -34,8 +34,19 @@ header a {
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: 400%;
     font-weight: 900;
+}
+
+/* Navbar */
+#menu {
+    font-size: 120%;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+#menu > li {
+    margin-bottom: 2px;
 }
 
 /* Main Content */

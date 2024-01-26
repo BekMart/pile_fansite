@@ -20,7 +20,12 @@ body {
 
 /* Header */
 header {
-    background-color: blanchedalmond;
+    background-color: #F3EADC;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 5px #4C3825;
 }
 
 h1 {

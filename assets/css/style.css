@@ -87,6 +87,8 @@ main {
     background-color: lightcoral;
     /* Make main element take up any surplus space to push the footer down */
     flex: 1 0 auto;
+    /* Push the start of element down so it isn't hidden by header */
+    margin-top: 76.5px;
 }
 
 /* Footer */

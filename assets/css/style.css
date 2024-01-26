@@ -23,6 +23,11 @@ header {
     background-color: blanchedalmond;
 }
 
+h1 {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
 /* Main Content */
 main {
     background-color: lightcoral;

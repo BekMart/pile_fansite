@@ -97,11 +97,15 @@ main {
 
 /* Hero section */
 #hero {
-    height: 450px;
+    height: 250px;
     width: 100%;
     background-color: #4C3825;
     background: url('../images/hero-image.jpeg') no-repeat top;
-    background-size: contain;
+    background-size: cover;
+}
+
+h2 {
+    text-transform: uppercase;
 }
 
 /* Footer */
@@ -123,6 +127,15 @@ footer {
     font-size: 150%;
     padding: 5px;
     color: #4C3825;
+}
+
+/* Media query: laptops & larger (500px and above) */
+@media screen and (min-width: 500px) {
+
+    /* Hero image */
+    #hero {
+        height: 400px;
+    }
 }
 
 /* Media query: tablets & larger (768px and above) */
@@ -163,8 +176,7 @@ footer {
 
     /* Hero image */
     #hero {
-        height: 700px;
-        width: 100%;
+        height: 500px;
     }
 
     /* Main Content */
@@ -179,6 +191,6 @@ footer {
 
     /* Hero image */
     #hero {
-        height: 850px;
+        height: 600px;
     }
 }

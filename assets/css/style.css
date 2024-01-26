@@ -75,11 +75,14 @@ nav {
 
 #nav-toggle {
     display: none;
+    position: relative;
 }
 
 .nav-toggle-label {
-    font-size: 400%;
-    font-weight: 900;
+    font-size: 300%;
+    position: absolute;
+    bottom: 15%;
+    right: 10px;
 }
 
 /* Main Content */

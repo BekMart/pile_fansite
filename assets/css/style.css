@@ -97,7 +97,7 @@ main {
 /* Footer */
 footer {
     background-color: #F3EADC;
-    box-shadow: 2px 0 5px #4C3825;
+    box-shadow: 2px 0 7px #4C3825;
 }
 
 /* Social newtork icons */
@@ -129,6 +129,10 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: .5rem;
+    }
+
+    nav a {
+        font-size: 2rem;
     }
 
     #menu {

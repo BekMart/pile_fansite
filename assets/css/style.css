@@ -26,6 +26,14 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 5px #4C3825;
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+
+/*Nav Toggle*/
+#nav-toggle:checked~nav {
+display: block;
 }
 
 header a {
@@ -62,6 +70,16 @@ nav {
     right: 0;
     box-shadow: inherit;
     display: none;
+    top: 100%;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 400%;
+    font-weight: 900;
 }
 
 /* Main Content */

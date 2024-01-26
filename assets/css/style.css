@@ -97,7 +97,7 @@ main {
 
 /* Hero section */
 #hero {
-    height: 500px;
+    height: 700px;
     width: 100%;
     background-color: #4C3825;
     background: url('../images/hero-image.jpeg') no-repeat top;
@@ -163,7 +163,7 @@ footer {
 
     /* Hero image */
     #hero {
-        height: 800px;
+        height: 900px;
         width: 100%;
     }
 
@@ -179,6 +179,6 @@ footer {
 
     /* Hero image */
     #hero {
-        height: 1000px;
+        height: 1250px;
     }
 }

@@ -31,11 +31,6 @@ header {
     align-items: last baseline;
 }
 
-/*Nav Toggle*/
-#nav-toggle:checked~nav {
-    display: block;
-}
-
 header a {
     text-decoration: none;
     color: #4C3825;
@@ -73,6 +68,11 @@ nav {
     top: 100%;
 }
 
+/* Nav Toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
 #nav-toggle {
     display: none;
     position: relative;
@@ -87,11 +87,21 @@ nav {
 
 /* Main Content */
 main {
-    background-color: lightcoral;
+    color: #F3EADC;
+    background-color: #4C3825;
     /* Make main element take up any surplus space to push the footer down */
     flex: 1 0 auto;
     /* Push the start of element down so it isn't hidden by header */
     margin-top: 76.5px;
+}
+
+/* Hero section */
+#hero {
+    height: 450px;
+    width: 100%;
+    background-color: #4C3825;
+    background: url('../images/hero-image.jpeg') no-repeat top;
+    background-size: contain;
 }
 
 /* Footer */
@@ -143,7 +153,7 @@ footer {
         border-bottom: 2px solid #4C3825;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -151,9 +161,24 @@ footer {
         display: none;
     }
 
+    /* Hero image */
+    #hero {
+        height: 700px;
+        width: 100%;
+    }
+
     /* Main Content */
     main {
         /* Push main content down to accomodate the larger header */
         margin-top: 134px;
+    }
+}
+
+/* Media query: laptops & larger (992px and above) */
+@media screen and (min-width: 992px) {
+
+    /* Hero image */
+    #hero {
+        height: 850px;
     }
 }

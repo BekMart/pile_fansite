@@ -116,6 +116,10 @@ footer {
         display: flex;
     }
 
+    #menu a:hover {
+        border-bottom: 2px solid #4C3825;
+    }
+
     #menu > li {
         padding-left: 1rem;
     }

@@ -16,6 +16,7 @@ body {
     /* Generic project style */
     color: #4C3825;
     font-family: 'Big Shoulders Display', 'Oswald', sans-serif;
+    font-weight: 200;
 }
 
 /* Links in body */
@@ -128,6 +129,10 @@ fieldset {
     background-color: #F3EADC;
     color: #4C3825;
     font-size: smaller;
+}
+
+ul > li {
+    list-style-type: none;
 }
 
 /* Footer */

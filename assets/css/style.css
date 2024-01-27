@@ -108,6 +108,17 @@ h2 {
     text-transform: uppercase;
 }
 
+/* Updates section */
+#updates {
+    padding: 5px;
+}
+
+fieldset {
+    inset-inline-start: 5px;
+    border: 3px solid #F3EADC;
+    padding: 3px;
+}
+
 /* Footer */
 footer {
     background-color: #F3EADC;

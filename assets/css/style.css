@@ -144,6 +144,12 @@ ul > li {
     list-style-type: none;
 }
 
+/* Bio section */
+fieldset > img {
+    padding-bottom: 5px;
+}
+
+
 /* Footer */
 footer {
     background-color: #F3EADC;

@@ -17,6 +17,7 @@ body {
     color: #4C3825;
     font-family: 'Big Shoulders Display', 'Oswald', sans-serif;
     font-size: larger;
+    font-weight: 300;
 }
 
 /* Links in body */
@@ -121,6 +122,7 @@ fieldset {
     padding: 3px;
     margin: 0 10px 10px;
     height: max-content;
+    background-color: #291501;
 }
 
 #date {

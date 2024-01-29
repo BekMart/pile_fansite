@@ -283,6 +283,44 @@ footer {
         height: 300px;
         width: 70%;
     }
+
+    #member-pics {
+        padding: 0 2% 20px;
+        width: 60%;
+        margin-bottom: 100px;
+    }
+
+    .rick {
+        position: absolute;
+        left: 10%;
+        top: 1%;
+    }
+
+    #alex {
+        position: absolute;
+        left: 63%;
+        bottom: 120px;
+        z-index: 80;
+    }
+    
+    .alex {
+        position: absolute;
+        left: 70%;
+        top: 32%;
+        z-index: 90; 
+    }
+
+    #kris {
+        position: relative;
+        top: 100px;
+    }
+
+    .kris {
+        position: absolute;
+        z-index: 98;
+        bottom: 25%;
+        left: 10%;
+    }
 }
 
 /* Media query: laptops & larger (992px and above) */

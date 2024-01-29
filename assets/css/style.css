@@ -161,6 +161,17 @@ ul > li {
     padding-bottom: 5px;
 }
 
+#member-pics {
+    position: relative;
+}
+
+.cover-text {
+    position: absolute;
+    color: #F3EADC;
+    font-size: 300%;
+    left: 5px;
+}
+
 
 /* Footer */
 footer {

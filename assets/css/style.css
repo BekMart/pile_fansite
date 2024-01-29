@@ -18,6 +18,8 @@ body {
     font-family: 'Big Shoulders Display', 'Oswald', sans-serif;
     font-size: larger;
     font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /* Links in body */
@@ -97,7 +99,7 @@ main {
     color: #F3EADC;
     background-color: #4C3825;
     /* Make main element take up any surplus space to push the footer down */
-    flex: 1 0 auto;
+    /* flex: 1 0 auto; */
     /* Push the start of element down so it isn't hidden by header */
     margin-top: 76.5px;
 }
@@ -115,10 +117,11 @@ main {
 h2 {
     text-transform: uppercase;
     font-size: xx-large;
+    font-weight: 900;
 }
 
 fieldset {
-    border: 5px solid #F3EADC;
+    border: 3px solid #F3EADC;
     padding: 3px;
     margin: 0 10px 10px;
     height: max-content;
@@ -130,6 +133,7 @@ fieldset {
     color: #4C3825;
     font-size: larger;
     font-weight: 700;
+    text-align: left;
 }
 
 fieldset div, fieldset > p {
@@ -144,8 +148,8 @@ ul > li {
     list-style-type: none;
 }
 
-/* Bio section */
-fieldset > img {
+/* Band member pic section */
+#member-pics > img {
     padding-bottom: 5px;
 }
 

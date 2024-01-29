@@ -128,24 +128,32 @@ fieldset {
     background-color: #291501;
 }
 
-#date {
+.date {
     background-color: #F3EADC;
     color: #4C3825;
     font-size: larger;
     font-weight: 700;
-    text-align: left;
+    float: left;
 }
 
-fieldset div, fieldset > p {
+fieldset div {
     padding: 0 5px 20px 5px;
 }
 
+div > p {
+    clear: left;
+    padding: 5px 0;
+}
+
+
 div img {
     padding: 0 20px;
+    max-width: 380px;
 }
 
 ul > li {
     list-style-type: none;
+    text-align: left;
 }
 
 /* Band member pic section */

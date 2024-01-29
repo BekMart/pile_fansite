@@ -256,7 +256,7 @@ footer {
     }
 
     fieldset div {
-        padding: 0 20px 20px;
+        padding: 0 20px;
     }
 
     h2 {
@@ -267,8 +267,21 @@ footer {
         font-size: 200%;
     }
 
-    p {
+    .right .date {
+        float: right;
+    }
+
+    .right ul {
+        float: right;
+    }
+     
+    div {
+        clear: both;
+    }
+
+    div p {
         font-size: 150%;
+        clear: both;
     }
 
     .left {
@@ -284,6 +297,7 @@ footer {
         width: 70%;
     }
 
+    /* Band member pics section */
     #member-pics {
         padding: 0 2% 20px;
         width: 60%;

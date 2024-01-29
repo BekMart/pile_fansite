@@ -249,6 +249,40 @@ footer {
         /* Push main content down to accomodate the larger header */
         margin-top: 134px;
     }
+
+    /* Updates section */
+    fieldset {
+        margin: 0 30px 30px;
+    }
+
+    fieldset div {
+        padding: 0 20px 20px;
+    }
+
+    h2 {
+        font-size: 400%;
+    }
+
+    .date {
+        font-size: 200%;
+    }
+
+    p {
+        font-size: 150%;
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .right {
+        text-align: right;
+    }
+
+    iframe {
+        height: 300px;
+        width: 70%;
+    }
 }
 
 /* Media query: laptops & larger (992px and above) */

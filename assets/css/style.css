@@ -99,7 +99,7 @@ main {
     color: #F3EADC;
     background-color: #4C3825;
     /* Make main element take up any surplus space to push the footer down */
-    /* flex: 1 0 auto; */
+    flex: 1 0 auto;
     /* Push the start of element down so it isn't hidden by header */
     margin-top: 76.5px;
 }
@@ -145,15 +145,12 @@ div > p {
     padding: 5px 0;
 }
 
-
 div img {
-    padding: 0 20px;
-    max-width: 380px;
+    max-width: 600px;
 }
 
 ul > li {
     list-style-type: none;
-    text-align: left;
 }
 
 /* Band member pic section */
@@ -171,7 +168,6 @@ ul > li {
     font-size: 300%;
     left: 5px;
 }
-
 
 /* Footer */
 footer {
@@ -246,7 +242,7 @@ footer {
 
     /* Main Content */
     main {
-        /* Push main content down to accomodate the larger header */
+    /* Push main content down to accomodate the larger header */
         margin-top: 134px;
     }
 
@@ -344,4 +340,23 @@ footer {
     #hero {
         height: 600px;
     }
+
+/* Media query: Desktop & larger (1200px and above) */
+@media screen and (min-width: 1200px) {
+
+    /* Band member pics section */
+    #member-pics {
+        display: flex;
+        flex-flow: row unwrap; 
+        gap: 3px;
+        margin: 20px 0 30px;
+    }
+
+    #member-pics > img {
+        position: initial;
+        align-self: auto;
+        width: 59%;
+        justify-content: center;
+    }      
+
 }

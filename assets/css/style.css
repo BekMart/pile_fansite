@@ -434,9 +434,13 @@ button a {
 /* Media query: tablets & larger (768px and above) */
 @media screen and (min-width: 768px) {
 
+    h2{
+        font-size: 500%;
+    }
+    
     h3 {
-        font-size: 300%;
-        padding-bottom: 20px;
+        font-size: 350%;
+        padding-bottom: 40px;
     }
 
     h4 {
@@ -448,7 +452,7 @@ button a {
     }
 
     ol > li {
-        font-size: larger;
+        font-size: xx-large;
     }
 
     button {
@@ -458,4 +462,21 @@ button a {
     button a {
         font-size: 400%;
     }
+}
+
+/* Media query: Desktop & larger (1200px and above) */
+@media screen and (min-width: 1200px) {
+    div > img {
+        float: left;
+        padding-bottom: 30px;
+    }
+
+    ol {
+        padding-left: 650px;
+    }
+
+    ol > li {
+        font-size: xx-large;
+    }
+
 }

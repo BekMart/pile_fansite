@@ -100,7 +100,7 @@ main {
     /* Make main element take up any surplus space to push the footer down */
     flex: 1 0 auto;
     /* Push the start of element down so it isn't hidden by header */
-    margin-top: 76.5px;
+    margin-top: 92px;
     text-align: center;
 }
 
@@ -140,7 +140,7 @@ fieldset div {
     padding: 0 5px 20px 5px;
 }
 
-div > p {
+div>p {
     clear: left;
     padding: 5px 0;
 }
@@ -154,13 +154,13 @@ iframe {
     width: 100%;
 }
 
-ul > li {
+ul>li {
     list-style-type: none;
     text-align: left;
 }
 
 /* Band member pic section */
-#member-pics > img {
+#member-pics>img {
     padding-bottom: 5px;
 }
 
@@ -248,7 +248,7 @@ footer {
 
     /* Main Content */
     main {
-    /* Push main content down to accomodate the larger header */
+        /* Push main content down to accomodate the larger header */
         margin-top: 134px;
     }
 
@@ -276,7 +276,7 @@ footer {
     .right ul {
         float: right;
     }
-     
+
     div {
         clear: both;
     }
@@ -318,12 +318,12 @@ footer {
         bottom: 120px;
         z-index: 80;
     }
-    
+
     .alex {
         position: absolute;
         left: 70%;
         top: 35%;
-        z-index: 90; 
+        z-index: 90;
     }
 
     #kris {
@@ -366,22 +366,22 @@ footer {
     #member-pics {
         width: 100vw;
         display: flex;
-        flex-flow: row unwrap; 
+        flex-flow: row unwrap;
         gap: 3px;
         margin-bottom: 30px;
         justify-content: space-between;
     }
 
-    #member-pics > img {
+    #member-pics>img {
         position: initial;
         width: 33%;
-    }      
+    }
 
     .cover-text {
         top: 0;
         left: 0;
     }
-    
+
     .rick {
         left: 3%;
     }

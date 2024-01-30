@@ -377,4 +377,21 @@ footer {
         width: 33%;
     }      
 
+    .cover-text {
+        top: 0;
+        left: 0;
+    }
+    
+    .rick {
+        left: 3%;
+    }
+
+    .alex {
+        left: 35%;
+    }
+
+    .kris {
+        left: 67%;
+    }
+
 }

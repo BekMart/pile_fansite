@@ -156,6 +156,7 @@ iframe {
 
 ul > li {
     list-style-type: none;
+    text-align: left;
 }
 
 /* Band member pic section */
@@ -294,7 +295,7 @@ footer {
     }
 
     iframe {
-        height: 400px;
+        height: 300px;
         width: 70%;
     }
 
@@ -344,6 +345,11 @@ footer {
     /* Hero image */
     #hero {
         height: 600px;
+    }
+
+    iframe {
+        height: 400px;
+        width: 70%;
     }
 }
 

@@ -116,7 +116,7 @@ main {
 /* Updates section */
 h2 {
     text-transform: uppercase;
-    font-size: xx-large;
+    font-size: 350%;
     font-weight: 900;
 }
 
@@ -398,7 +398,8 @@ footer {
 /* Music page */
 
 h3 {
-    font-size: 150%;
+    font-size: 250%;
+    padding-bottom: 5px;
 }
 
 h4 {
@@ -423,4 +424,8 @@ button a {
     border: 1px solid #291501;
     font-weight: 600;
     font-family: 'Big Shoulders Display';
+}
+
+#albums, #other-releases {
+    padding: 10px;
 }

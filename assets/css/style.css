@@ -411,7 +411,7 @@ h5 {
     font-weight: 400;
 }
 
-ol > li {
+ol > li, div > p {
     text-align: left;
     margin-left: 8%;
 }

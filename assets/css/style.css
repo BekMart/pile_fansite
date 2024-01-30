@@ -396,3 +396,31 @@ footer {
 }
 
 /* Music page */
+
+h3 {
+    font-size: 150%;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font: 1.5rem;
+    font-weight: 400;
+}
+
+ol > li {
+    text-align: left;
+    margin-left: 8%;
+}
+
+button a {
+    background-color: #F3EADC;
+    color: #291501;
+    font-size: 200%;
+    text-decoration: none;
+    border: 1px solid #291501;
+    font-weight: 600;
+    font-family: 'Big Shoulders Display';
+}

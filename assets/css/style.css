@@ -245,9 +245,14 @@ table {
 }
 
 th {
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: 700;
-    text-decoration: underline;
+    text-decoration: underline overline;
+}
+
+td {
+    font-size: 120%;
+    padding: 5px;
 }
 
 td button a {
@@ -427,6 +432,19 @@ td button a {
     button {
         margin-bottom: 5%;
     }
+
+    /* Tour page */
+    th {
+        font-size: 250%;
+    }
+
+    td {
+        font-size: 200%;
+    }
+
+    td button a {
+        font-size: 250%;
+    }
 }
 
 /* Media query: laptops & larger (992px and above) */
@@ -441,6 +459,7 @@ td button a {
         height: 400px;
         width: 70%;
     }
+
 }
 
 /* Media query: Desktop & larger (1200px and above) */

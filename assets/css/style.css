@@ -136,10 +136,6 @@ fieldset {
     float: left;
 }
 
-/* fieldset div {
-    padding: 0 5px 20px 5px;
-} */
-
 div>p {
     clear: left;
     padding: 5px 0;
@@ -235,6 +231,26 @@ td {
 td button a {
     font-size: 120%;
 }
+
+/* Contact Page */
+#contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#contact a {
+    align-self: center;
+    width: 150px;
+    height: 50px;
+    background-color: #F3EADC;
+    color: #4C3825;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 800;
+} 
 
 /* Footer */
 footer {

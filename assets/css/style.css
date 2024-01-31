@@ -175,6 +175,47 @@ ul>li {
     left: 5px;
 }
 
+/* Music page */
+h3 {
+    font-size: 250%;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font: 1.5rem;
+    font-weight: 400;
+}
+
+#sphere-shaped-room-text,
+ol>li {
+    text-align: left;
+    margin-left: 8%;
+}
+
+/* Link button to listen to album on Spotify */
+button a {
+    background-color: #F3EADC;
+    color: #291501;
+    font-size: 250%;
+    text-decoration: none;
+    border: 1px solid #291501;
+    font-weight: 600;
+    font-family: 'Big Shoulders Display';
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+#albums,
+#other-releases {
+    padding: 10px;
+}
+
 /* Footer */
 footer {
     background-color: #F3EADC;
@@ -337,6 +378,38 @@ footer {
         bottom: 24%;
         left: 10%;
     }
+
+    /* Music page */
+    h2 {
+        font-size: 400%;
+    }
+
+    h3 {
+        font-size: 300%;
+        margin-bottom: 20px;
+        font-weight: 800;
+    }
+
+    h4 {
+        font-size: 250%;
+    }
+
+    h5 {
+        font-size: larger;
+        margin-bottom: 20px;
+    }
+
+    ol>li {
+        font-size: xx-large;
+    }
+
+    button {
+        margin-bottom: 10%;
+    }
+
+    button a {
+        font-size: 400%;
+    }
 }
 
 /* Media query: laptops & larger (992px and above) */
@@ -393,90 +466,28 @@ footer {
     .kris {
         left: 67%;
     }
-}
 
-/* Music page */
-
-h3 {
-    font-size: 250%;
-    padding-bottom: 5px;
-}
-
-h4 {
-    font-size: 2rem;
-}
-
-h5 {
-    font: 1.5rem;
-    font-weight: 400;
-}
-
-ol > li, div > p {
-    text-align: left;
-    margin-left: 8%;
-}
-
-/* Link button to listen to album on Spotify */
-button a {
-    background-color: #F3EADC;
-    color: #291501;
-    font-size: 200%;
-    text-decoration: none;
-    border: 1px solid #291501;
-    font-weight: 600;
-    font-family: 'Big Shoulders Display';
-}
-
-#albums, #other-releases {
-    padding: 10px;
-}
-
-/* Media query: tablets & larger (768px and above) */
-@media screen and (min-width: 768px) {
-
-    h2{
-        font-size: 500%;
-    }
-    
-    h3 {
-        font-size: 350%;
-        padding-bottom: 40px;
-    }
-
-    h4 {
-        font-size: 250%;
-    }
-
-    h5 {
-        font-size: larger;
-    }
-
-    ol > li {
-        font-size: xx-large;
-    }
-
-    button {
-        margin-bottom: 5%;
-    }
-
-    button a {
-        font-size: 400%;
-    }
-}
-
-/* Media query: Desktop & larger (1200px and above) */
-@media screen and (min-width: 1200px) {
-    div > img {
+    /* Music page */
+    #album-list img,
+    #other-releases img {
         float: left;
-        padding-bottom: 30px;
+        padding-bottom: 150px;
     }
 
     ol {
         padding-left: 650px;
     }
 
-    ol > li {
+    #sphere-shaped-room-text, ol>li {
         font-size: xx-large;
     }
 
+    #sphere-shaped-room-text {
+        padding-left: 600px;
+        clear: right;
+    }
+
+    button {
+        margin-top: 30px;
+    }
 }

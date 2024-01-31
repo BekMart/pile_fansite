@@ -217,6 +217,25 @@ button {
     padding: 10px;
 }
 
+/* Tour page */
+table {
+    width: 100%;
+}
+
+th {
+    font-size: xx-large;
+    font-weight: 700;
+    text-decoration: underline overline;
+}
+
+td {
+    padding: 5px;
+}
+
+td button a {
+    font-size: 120%;
+}
+
 /* Footer */
 footer {
     background-color: #F3EADC;
@@ -236,27 +255,6 @@ footer {
     font-size: 150%;
     padding: 5px;
     color: #4C3825;
-}
-
-/* Tour page */
-table {
-    /* border: 1px solid #F3EADC; */
-    width: 100%;
-}
-
-th {
-    font-size: xx-large;
-    font-weight: 700;
-    text-decoration: underline overline;
-}
-
-td {
-    font-size: 120%;
-    padding: 5px;
-}
-
-td button a {
-    font-size: 120%;
 }
 
 /* Media query: laptops & larger (500px and above) */
@@ -436,10 +434,12 @@ td button a {
     /* Tour page */
     th {
         font-size: 250%;
+        padding-bottom: 10px;
     }
-
+    
     td {
         font-size: 200%;
+        padding-bottom: 10px;
     }
 
     td button a {

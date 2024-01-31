@@ -201,6 +201,7 @@ button a {
     background-color: #F3EADC;
     color: #291501;
     font-size: 250%;
+    text-transform: uppercase;
     text-decoration: none;
     border: 1px solid #291501;
     font-weight: 600;
@@ -235,6 +236,22 @@ footer {
     font-size: 150%;
     padding: 5px;
     color: #4C3825;
+}
+
+/* Tour page */
+table {
+    /* border: 1px solid #F3EADC; */
+    width: 100%;
+}
+
+th {
+    font-size: x-large;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+td button a {
+    font-size: 120%;
 }
 
 /* Media query: laptops & larger (500px and above) */

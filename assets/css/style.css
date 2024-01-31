@@ -136,9 +136,9 @@ fieldset {
     float: left;
 }
 
-fieldset div {
+/* fieldset div {
     padding: 0 5px 20px 5px;
-}
+} */
 
 div>p {
     clear: left;
@@ -403,12 +403,12 @@ footer {
         font-size: xx-large;
     }
 
-    button {
-        margin-bottom: 10%;
-    }
-
     button a {
         font-size: 400%;
+    }
+
+    button {
+        margin-bottom: 5%;
     }
 }
 
@@ -430,6 +430,10 @@ footer {
 @media screen and (min-width: 1200px) {
 
     /* Updates section */
+    fieldset {
+        padding: 3% 7%; 
+    }
+
     iframe {
         height: 450px;
         width: 50%;

@@ -33,7 +33,6 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 5px #4C3825;
     display: flex;
     justify-content: space-between;
     align-items: last baseline;
@@ -71,7 +70,6 @@ nav {
     width: 100%;
     padding: 0 .5em;
     right: 0;
-    box-shadow: inherit;
     display: none;
     top: 100%;
 }
@@ -115,8 +113,7 @@ main {
 
 /* Updates section */
 h2 {
-    text-transform: uppercase;
-    font-size: 350%;
+    font-size: 300%;
     font-weight: 900;
 }
 
@@ -126,6 +123,10 @@ fieldset {
     margin: 0 10px 10px;
     height: max-content;
     background-color: #291501;
+}
+
+#updates .left, #updates .right {
+    padding: 2% 3% 5%;
 }
 
 .date {
@@ -179,12 +180,17 @@ h3 {
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 200%;
+    font-weight: 800;
 }
 
 h5 {
     font: 1.5rem;
-    font-weight: 400;
+    font-weight: 600;
+}
+
+#sphere-shaped-room-text, ol {
+    padding: 3%;
 }
 
 #sphere-shaped-room-text,
@@ -206,7 +212,7 @@ button a {
 }
 
 button {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 #albums,
@@ -238,6 +244,7 @@ td button a {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    margin-bottom: 30px;
 }
 
 #follow a {
@@ -255,7 +262,7 @@ td button a {
 
 /* Newsletter section */
 #newsletter {
-    margin: 0 20% 5% 5%;
+    margin: 0 20% 10% 5%;
     text-align: left;
     font-size: 2rem;
 }
@@ -618,9 +625,13 @@ footer {
         padding: 3% 7%;
     }
 
+    #updates .left, #updates .right {
+        padding-bottom: 0;
+    }
+
     iframe {
         height: 450px;
-        width: 50%;
+        width: 60%;
     }
 
     /* Band member pics section */
@@ -663,7 +674,7 @@ footer {
     }
 
     ol {
-        padding-left: 650px;
+        padding: 0 0 0 650px;
     }
 
     #sphere-shaped-room-text,

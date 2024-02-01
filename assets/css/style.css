@@ -175,6 +175,7 @@ ul>li {
 h3 {
     font-size: 250%;
     padding-bottom: 10px;
+    text-decoration: underline overline;
 }
 
 h4 {
@@ -251,6 +252,9 @@ td button a {
     margin: 10px;
     font-weight: 800;
 } 
+
+/* Newsletter section */
+
 
 /* Footer */
 footer {

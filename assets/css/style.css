@@ -234,13 +234,13 @@ td button a {
 }
 
 /* Contact Page */
-#contact {
+#follow {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 }
 
-#contact a {
+#follow a {
     align-self: center;
     width: 150px;
     height: 50px;
@@ -327,8 +327,8 @@ footer {
     }
 }
 
-/* Media query: laptops & larger (500px and above) */
-@media screen and (min-width: 500px) {
+/* Media query: laptops & larger (400px and above) */
+@media screen and (min-width: 400px) {
 
     /* Hero image */
     #hero {
@@ -515,6 +515,84 @@ footer {
     td button a {
         font-size: 250%;
     }
+
+    /* Contact Page */
+    #contact h3 {
+        text-align: center;
+        margin-top: 6%;
+    }
+
+    #follow {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0% 5% 5%;
+    }
+
+    #follow a {
+        align-self: center;
+        width: 180px;
+        height: 60px;
+        background-color: #F3EADC;
+        color: #4C3825;
+        font-size: xx-large;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        font-weight: 800;
+    }
+
+    /* Newsletter section */
+    #newsletter {
+        width: 70vw;
+        text-align: left;
+        font-size: 2.5rem;
+    }
+
+    #newsletter input {
+        background-color: #F3EADC;
+        padding: 5px;
+        left: 50%;
+        width: 250px;
+        height: 40px;
+    }
+
+    #submit-button {
+        font-size: x-large;
+        color: #4C3825;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-family: 'Big Shoulders Display';
+        margin: 20px 0;
+    }
+}
+
+/* Media query: laptops & larger (960px and above) */
+@media screen and (min-width: 960px) {
+
+    /* Contact Page */
+    #follow {
+        padding: 0% 12% 5%;
+    }
+
+    #follow a {
+        align-self: center;
+        width: 200px;
+        height: 60px;
+        background-color: #F3EADC;
+        color: #4C3825;
+        font-size: xx-large;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        font-weight: 800;
+    }
+
+    #newsletter {
+        margin-bottom: 10%;  
+        width: 60vw;
+        padding-left: 100px;
+    }
 }
 
 /* Media query: laptops & larger (992px and above) */
@@ -600,5 +678,17 @@ footer {
 
     button {
         margin-top: 30px;
+    }
+
+    /* Contact page */
+    #follow {
+        gap: 30px;
+        margin: 0 10%;
+        padding: 0;
+    }
+
+    #newsletter {
+        width: 60vw;
+        padding-left: 150px;
     }
 }

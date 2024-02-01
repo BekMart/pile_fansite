@@ -251,10 +251,31 @@ td button a {
     padding: 10px;
     margin: 10px;
     font-weight: 800;
-} 
+}
 
 /* Newsletter section */
+#newsletter {
+    margin: 0 20% 5% 5%;
+    text-align: left;
+    font-size: 2rem;
+}
 
+#newsletter input {
+    background-color: #F3EADC;
+    padding: 5px;
+    left: 50%;
+    width: 150px;
+    margin-bottom: 0;
+}
+
+#submit-button {
+    font-size: x-large;
+    color: #4C3825;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display';
+    margin: 20px 0;
+}
 
 /* Footer */
 footer {
@@ -275,6 +296,35 @@ footer {
     font-size: 150%;
     padding: 5px;
     color: #4C3825;
+}
+
+/* Media query: slightly bigger mobile devices (350px and above) */
+@media screen and (min-width: 350px) {
+
+    /* Newsletter section */
+    #newsletter {
+        margin: 5% 5% 20% 5%;
+        text-align: left;
+        font-size: 2rem;
+        position: relative;
+    }
+
+    #newsletter input {
+        background-color: #F3EADC;
+        padding: 5px;
+        position: absolute;
+        left: 50%;
+        width: 150px;
+    }
+
+    #submit-button {
+        font-size: x-large;
+        color: #4C3825;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-family: 'Big Shoulders Display';
+        margin-top: 20px;
+    }
 }
 
 /* Media query: laptops & larger (500px and above) */
@@ -456,7 +506,7 @@ footer {
         font-size: 250%;
         padding-bottom: 10px;
     }
-    
+
     td {
         font-size: 200%;
         padding-bottom: 10px;
@@ -487,7 +537,7 @@ footer {
 
     /* Updates section */
     fieldset {
-        padding: 3% 7%; 
+        padding: 3% 7%;
     }
 
     iframe {
@@ -538,7 +588,8 @@ footer {
         padding-left: 650px;
     }
 
-    #sphere-shaped-room-text, ol>li {
+    #sphere-shaped-room-text,
+    ol>li {
         font-size: xx-large;
     }
 

@@ -620,6 +620,10 @@ footer {
 /* Media query: Desktop & larger (1200px and above) */
 @media screen and (min-width: 1200px) {
 
+    fieldset {
+        margin: 40px 60px 60px;
+    }
+
     /* Updates section */
     fieldset {
         padding: 3% 7%;

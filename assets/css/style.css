@@ -212,7 +212,7 @@ ol>li {
 }
 
 /* Link button to listen to album on Spotify */
-#albums a, 
+#albums a,
 #other-releases a {
     background-color: #F3EADC;
     color: #291501;
@@ -248,8 +248,14 @@ td {
     padding: 5px;
 }
 
-td button a {
-    font-size: 120%;
+td a {
+    font-size: 100%;
+    background-color: #F3EADC;
+    color: #291501;
+    text-decoration: none;
+    border: 5px ridge #4C3825;
+    font-weight: 600;
+    font-family: 'Big Shoulders Display';
 }
 
 /* Contact Page */
@@ -325,6 +331,11 @@ footer {
 
 /* Media query: slightly bigger mobile devices (350px and above) */
 @media screen and (min-width: 350px) {
+
+    /* Tour section */
+    td a {
+        font-size: 120%;
+    }
 
     /* Newsletter section */
     #newsletter {
@@ -541,8 +552,8 @@ footer {
 
     /* Contact Page */
     #contact h3 {
+        margin-top: 5%;
         text-align: center;
-        margin-top: 6%;
     }
 
     #follow {
@@ -659,7 +670,7 @@ footer {
     #member-pics {
         width: 100vw;
         display: flex;
-        flex-flow: row unwrap;
+        flex-flow: row nowrap;
         gap: 3px;
         margin-bottom: 30px;
         justify-content: space-between;

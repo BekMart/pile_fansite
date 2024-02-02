@@ -125,7 +125,8 @@ fieldset {
     background-color: #291501;
 }
 
-#updates .left, #updates .right {
+#updates .left,
+#updates .right {
     padding: 2% 3% 5%;
 }
 
@@ -189,7 +190,8 @@ h5 {
     font-weight: 600;
 }
 
-#sphere-shaped-room-text, ol {
+#sphere-shaped-room-text,
+ol {
     padding: 3%;
 }
 
@@ -287,15 +289,23 @@ td button a {
 /* Footer */
 footer {
     background-color: #F3EADC;
-    box-shadow: 2px 0 7px #4C3825;
+    display: flex;
+}
+
+/* Copyright section */
+#copyright {
+    display: flex;
+    text-align: flex-start;
+    padding: 5px;
+    font-weight: 600;
 }
 
 /* Social newtork icons */
 #social-networks {
     text-align: right;
-    padding: 20px 0;
+    padding: 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     list-style-type: none;
 }
 
@@ -596,7 +606,7 @@ footer {
     }
 
     #newsletter {
-        margin-bottom: 10%;  
+        margin-bottom: 10%;
         width: 60vw;
         padding-left: 100px;
     }
@@ -629,7 +639,8 @@ footer {
         padding: 3% 7%;
     }
 
-    #updates .left, #updates .right {
+    #updates .left,
+    #updates .right {
         padding-bottom: 0;
     }
 

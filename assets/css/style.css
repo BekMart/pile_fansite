@@ -26,6 +26,11 @@ body a {
     color: #F3EADC;
 }
 
+/* Hidden headers */
+.hidden-text {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #F3EADC;
@@ -144,12 +149,15 @@ div>p {
 }
 
 div img {
+    width: 100%;
+    height: auto;
     max-width: 600px;
 }
 
 iframe {
     height: 250px;
     width: 100%;
+    border: none;
 }
 
 ul>li {
@@ -159,6 +167,8 @@ ul>li {
 
 /* Band member pic section */
 #member-pics>img {
+    width: 100%;
+    height: auto;
     padding-bottom: 5px;
 }
 
@@ -192,7 +202,7 @@ h5 {
 
 #sphere-shaped-room-text,
 ol {
-    padding: 3%;
+    padding: 5%;
 }
 
 #sphere-shaped-room-text,
@@ -202,19 +212,20 @@ ol>li {
 }
 
 /* Link button to listen to album on Spotify */
-button a {
+#albums a, 
+#other-releases a {
     background-color: #F3EADC;
     color: #291501;
-    font-size: 250%;
+    font-size: 180%;
     text-transform: uppercase;
     text-decoration: none;
-    border: 1px solid #291501;
+    border: 5px ridge #4C3825;
     font-weight: 600;
     font-family: 'Big Shoulders Display';
 }
 
-button {
-    margin-bottom: 25px;
+#album-list div {
+    margin-bottom: 8%;
 }
 
 #albums,
@@ -507,12 +518,10 @@ footer {
         font-size: xx-large;
     }
 
-    button a {
-        font-size: 400%;
-    }
-
-    button {
-        margin-bottom: 5%;
+    #album-list a {
+        font-size: 300%;
+        border: 6px ridge #4C3825;
+        margin: 5%;
     }
 
     /* Tour page */
@@ -686,7 +695,7 @@ footer {
     }
 
     ol {
-        padding: 0 0 0 650px;
+        padding: 0 0 5% 650px;
     }
 
     #sphere-shaped-room-text,

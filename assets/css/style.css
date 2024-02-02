@@ -289,29 +289,26 @@ td button a {
 /* Footer */
 footer {
     background-color: #F3EADC;
-    display: flex;
 }
 
 /* Copyright section */
 #copyright {
-    display: flex;
-    text-align: flex-start;
-    padding: 5px;
     font-weight: 600;
+    text-align: center;
 }
 
 /* Social newtork icons */
 #social-networks {
-    text-align: right;
-    padding: 20px;
     display: flex;
-    justify-content: space-between;
+    align-self: center;
+    padding: 2px 20px 10px;
+    justify-content: space-evenly;
     list-style-type: none;
 }
 
 #social-networks i {
     font-size: 150%;
-    padding: 5px;
+    padding: 2px;
     color: #4C3825;
 }
 

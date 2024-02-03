@@ -303,16 +303,19 @@ td a {
     margin: 20px 0;
 }
 
-/* Success page */
-#success {
+/* Success & 404 error pages */
+#success,
+#invalid {
     height: 80vh;
 }
 
-#success h3 {
+#success h3,
+#invalid h3 {
     margin: 30px;
 }
 
-#success p {
+#success p
+#invalid p {
     font-size: 150%;
     font-weight: 200;
 }

@@ -309,14 +309,17 @@ td a {
     height: 80vh;
 }
 
-#success h3,
-#invalid h3 {
+#success h3  {
     margin: 30px;
+}
+
+#invalid h3 {
+    margin: 30px, 0, 10px;
 }
 
 #success p,
 #invalid p {
-    font-size: 150%;
+    font-size: 120%;
     font-weight: 200;
 }
 
@@ -327,7 +330,7 @@ td a {
 
 #invalid i {
     font-size: 300%;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 /* Footer */
@@ -387,6 +390,12 @@ footer {
         text-transform: uppercase;
         font-family: 'Big Shoulders Display';
         margin-top: 20px;
+    }
+
+    /* Success & 404 error pages */
+    #success p,
+    #invalid p {
+        font-size: 150%;
     }
 }
 

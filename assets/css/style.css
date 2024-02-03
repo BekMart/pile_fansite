@@ -320,6 +320,12 @@ td a {
     font-weight: 200;
 }
 
+#success i,
+#invalid i {
+    font-size: 300%;
+    margin-top: 30px;
+}
+
 /* Footer */
 footer {
     background-color: #F3EADC;
@@ -617,14 +623,21 @@ footer {
         margin: 20px 0;
     }
 
-    /* Success page */
-#success h3 {
+    /* Success & 404 error pages */
+#success h3,
+#invalid h3 {
     margin: 40px;
 }
 
-#success p {
+#success p,
+#invalid p {
     font-size: 200%;
     font-weight: 300;
+}
+
+#success i,
+#invalid i {
+    font-size: 500%;
 }
 }
 

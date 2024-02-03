@@ -4,17 +4,16 @@ This website has been designed to create band awareness for PILE and give fans a
 ![Screenshot of my website displayed on several different sized device screens, using a web app called 'Am I Responsive', showing that my website has been adapted to look good on all devices.][responsive]
 
 ## Features
-<!--In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.-->
+<!--In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Screenshots and explainations of each of the main features and sections of the page. What it does. Why its their.-->
 
 ### Existing Features
 ### - Navigation Bar
 
 - The navigation bar is featured at the top, in the header of all four pages within the site, and is fixed to enable users to easily navigate through the website at all times and creates continuity, without having to rely upon the 'back' button to navigate through the pages. 
 - On the left of the header is the name of the band in big bold font, this is always visible and when clicked will return the user back to the home page. On the right hand side, are the headings and links to the other pages within the website. The page that the user is currently on is highlighted by being underlined. 
-![Screenshot of the navigation bar, sitiuated in the header of the webpage. On the left is the bands name written in large. On the right is a list of the other page headings, (home, music, tour, contact) which represent the links ot their respective pages. Home is underlined as it is the page which is currently being viewed.][navbar]
-
 - On mobile phone devices the navigation section is within a drop down toggle, to maximise space, the user will need to click on the icon of a record which is the same as the favicon in the tab, to enable it to drop down and select which page they wish to view.
-![Screenshot of the same navigation bar but on a mobile device. The list of page headings is only revealed once the user clicks on the record icon in the header at the top left and then the list comes down vertically][nav-toggle]
+![Screenshot of the navigation bar, sitiuated in the header of the webpage. On the left is the bands name written in large. On the right is a list of the other page headings, (home, music, tour, contact) which represent the links ot their respective pages. Home is underlined as it is the page which is currently being viewed.][navbar]
  
 ### - The Landing Image
 - There is a large, eye catching image of the band visible at the top of the landing page, which introduces the user to them and grabs their attention before viewing the rest of the content available. 
@@ -28,7 +27,7 @@ This website has been designed to create band awareness for PILE and give fans a
 - This is great for the user because it will keep them coming back to the site, to check if there are any new updates.
 - Responsive design has been used for different devices to organise the content so that it flows better. On smaller screens the items are one on top of each other. Whereas on larger screens, the updates are larger, staggered and there is more padding to reduce the amount of negative space.  
 
-![Image of the updates section, showing a heading, placed inside a fieldset. The latest update is at the top, showing the date posted, a small amount of text stating that the band are doing a US tour, with a link to the tour page and an image of a tour poster][updates-screen]
+![Image of the updates section, showing a heading, placed inside a fieldset. The latest update is at the top, showing the date posted, a small amount of text stating that the band are doing a US tour, with a link to the tour page and an image of a tour poster][update-screen]
 
 ### - Band Member Images
 - This section is an image of each of the band members, playing on stage with their names over their picture. This tells the user who is who in the band. They can now put a face to a name and an instrument, just by viewing some eye catching images. 
@@ -69,34 +68,72 @@ This website has been designed to create band awareness for PILE and give fans a
 
 ![Screenshot of newsletter section on contacts page. The newsletter heading is bold and decorated with lines above and underneath, consistent with other headings. There is a simple form to complete by filling in your first name, surname and email address and then a subscribe button to submit the request. This is all in the centre of the section at the bottom of the contacts page][subscribe-screen]
 
+### Features Left To Implement
+### - Merchandise Page
+- If I had more time, knowledge and a higher skill-sets then I would like to have added a merchandise page to this website. 
+- This would have involved going through payment authentication which is out of my current remit. 
+- This would add value to the page, as the user would be able to browse and purchase audio products or apparel from one place. 
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-
-Screenshots and explainations of each of the main features and sections of the page. What it does. Why its their.
 ## Testing
-How did I test the sites functionality. Different browsers. responsive on all screen sizes. each section is readable and easy to use. All functions work.
-## Bugs
-What bugs I found and how i fixed them. Are any bugs still there?
-## Validation
-HTML/CSS validators used. Lighthouse screenshot.
-## Deployment
-How did I deploy the site using GitHub. 
+- I tested that this webpage works in both Chrome and Safari. Everything worked perfectly fine on Chrome, however the Apple music links wont work in Safari.
+- I confirm that all pages on this website are responsive and look good on all standard sized screens, using the devtools device toolbar. 
+- The content of all the pages is readable, consistent in layout and easy to use intuitivaly. I have used consistent and contrasting colours throughout the website. Each page has a similar layout with the page title in the top centre of the fieldset box and any further headings in the same style. All links are clearly labelled and visible. 
+- All of the functions work as expected. All links go to the correct place and open in seperate windows if the destination is a different website. The music videos play when the user clicks on them and they are able to control the volume, mute, pause or view on full screen. The form in the contact section works as intended, the user must complete each field correctly, otherwise an indicator will show what they have missed/completed incorrectly. Once submitted a webpage is shown with a table containing the information that has been recorded via a CI website.  
+<!--How did I test the sites functionality. Different browsers. responsive on all screen sizes. each section is readable and easy to use. All functions work.
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Visit my website [here.](https://bekmart.github.io/pile_fansite/)
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.-->
+
+### Validation
+### - HTML
+- No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
+### - CSS
+- No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+### - Lighthouse
+- I completed an audit through Chrome Devtools using the Lighthouse program. The results were as follows-
+
+![Screenshot of Lighthouse results. Performance is amber with result of 81. Accessability is green 100. Best Practices is green 95. SEO is green 100.][lighthouse]
+
+
+
+
+Unfixed Bugs
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+### Bugs
+
+What bugs I found and how i fixed them. Are any bugs still there?
+
+## Deployment
+- The website was created in Gitpod and deployed to GitHub pages via the terminal. Once in GitHub, the steps to deploy were as follows:
+    - In the GitHub repository pile_fansite, navigate to the Settings tab
+    - On the left hand side, click on 'Pages' in the 'Code and automation' section
+    - Ensure that 'Source' is set to 'Deploy from a branch'
+    - Select 'main' in the branch section and '/(root)' in the folder section, using the drop-down menus
+    - Click the save button
+    - Return to the Code tab and wait for a few minutes for the build to finish before refreshing the repository page
+    - Click the 'Deployments' button found on the right hand site of the page
+    - At the top of this page will be a link to the deployed website
+
+Visit the live website [here.](https://bekmart.github.io/pile_fansite/)
+
 ## Credits
 CONTENT - code that Ive used form other sources. CI love running project influence. 
 MEDIA - Links, images, videos, content used. 
 
 [responsive]: assets/images/am-i-responsive.png
 [navbar]: assets/images/navigation-bar.png
-[nav-toggle]: assets/images/navigation-toggle.png
 [hero-image]: assets/images/hero-image.jpeg
-[updates-screen]: assets/images/updates-screen.png
+[update-screen]: assets/images/update-screen.png
 [band-member-screen]: assets/images/band-member-screen.png
 [footer-screen]: assets/images/footer-screen.png
 [music-screen]: assets/images/music-screen.png
 [tour-screen]: assets/images/tour-screen.png
 [contact-screen]: assets/images/contact-screen.png
 [subscribe-screen]: assets/images/subscribe-screen.png
+[lighthouse]: assets/images/Lighthouse.png
+
 

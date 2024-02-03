@@ -314,13 +314,14 @@ td a {
 }
 
 #invalid h3 {
-    margin: 30px, 0, 10px;
+    padding: 20px, 0, 20px;
 }
 
 #success p,
 #invalid p {
     font-size: 120%;
     font-weight: 200;
+    padding: 0 20px;
 }
 
 #success i {

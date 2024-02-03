@@ -709,6 +709,11 @@ footer {
         padding: 0 0 5% 650px;
     }
 
+    /* #button-position {
+        float: clear;
+        text-align: left;
+    } */
+
     #sphere-shaped-room-text,
     ol>li {
         font-size: xx-large;

@@ -130,6 +130,7 @@ Visit the live website [here.](https://bekmart.github.io/pile_fansite/)
     - The social media links in the footer
 ### - Media 
 - The favicon I used was sourced from https://gauger.io/fonticon/
+- The icons that were used to represent the social media and audio platforms were from [Font Awesome](https://fontawesome.com/search)
 - The font was from [Google Fonts](https://fonts.google.com/specimen/Big+Shoulders+Display?preview.text=PILE%20some%20general%20text&preview.size=47&query=big&stroke=Sans+Serif)
 - The landing image of the band was found via Google on https://grandstandhq.com/wp2013/wp-content/uploads/2023/01/Pile-All-Fiction-_-Credit-to-Emme-Rovins-scaled.jpeg
 - The image of the bands tour date poster was found on PILE's existing website https://pilemusic.com/

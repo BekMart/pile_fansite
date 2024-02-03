@@ -314,16 +314,20 @@ td a {
     margin: 30px;
 }
 
-#success p
+#success p,
 #invalid p {
     font-size: 150%;
     font-weight: 200;
 }
 
-#success i,
-#invalid i {
+#success i {
     font-size: 300%;
     margin-top: 30px;
+}
+
+#invalid i {
+    font-size: 300%;
+    margin-bottom: 20px;
 }
 
 /* Footer */
@@ -624,21 +628,21 @@ footer {
     }
 
     /* Success & 404 error pages */
-#success h3,
-#invalid h3 {
-    margin: 40px;
-}
+    #success h3,
+    #invalid h3 {
+        margin: 40px;
+    }
 
-#success p,
-#invalid p {
-    font-size: 200%;
-    font-weight: 300;
-}
+    #success p,
+    #invalid p {
+        font-size: 200%;
+        font-weight: 300;
+    }
 
-#success i,
-#invalid i {
-    font-size: 500%;
-}
+    #success i,
+    #invalid i {
+        font-size: 500%;
+    }
 }
 
 /* Media query: laptops & larger (960px and above) */

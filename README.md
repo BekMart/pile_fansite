@@ -98,14 +98,11 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ![Screenshot of Lighthouse results. Performance is amber with result of 81. Accessability is green 100. Best Practices is green 95. SEO is green 100.][lighthouse]
 
-
-
-
-Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 ### Bugs
-
-What bugs I found and how i fixed them. Are any bugs still there?
+### - Solved Bugs
+<!--What bugs I found and how i fixed them.-->
+### - Unfixed Bugs
+<!--You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.-->
 
 ## Deployment
 - The website was created in Gitpod and deployed to GitHub pages via the terminal. Once in GitHub, the steps to deploy were as follows:
@@ -121,8 +118,19 @@ What bugs I found and how i fixed them. Are any bugs still there?
 Visit the live website [here.](https://bekmart.github.io/pile_fansite/)
 
 ## Credits
-CONTENT - code that Ive used form other sources. CI love running project influence. 
-MEDIA - Links, images, videos, content used. 
+### - Content
+- I used some of the code from the CI [Love Running](https://bekmart.github.io/love_running/index.html) walkthrough project. 
+    - The style and toggle in the header 
+    - The social media links in the footer. 
+### - Media 
+- The favicon I used was sourced from https://gauger.io/fonticon/
+- The font was from [Google Fonts](https://fonts.google.com/specimen/Big+Shoulders+Display?preview.text=PILE%20some%20general%20text&preview.size=47&query=big&stroke=Sans+Serif)
+- The landing image of the band was found https://grandstandhq.com/wp2013/wp-content/uploads/2023/01/Pile-All-Fiction-_-Credit-to-Emme-Rovins-scaled.jpeg
+- The image of the bands tour date poster was found https://pilemusic.com/
+- The music videos on the updates page were sourced from YouTube https://www.youtube.com/watch?v=81pRkyNROio and https://www.youtube.com/watch?v=LDTkn22m4EE
+- The images of the individual band members was sourced from https://digboston.com/fotobom-pile-mal-devisa-arts-at-the-armory/
+- The images of the album covers were all taken from https://pile.bandcamp.com/music and https://post-trash.com/news/2020/8/24/pile-demonstration-reissue-album-review and https://thirdmanrecords.com/products/pile-live-at-third-man-records via https://Google.com 
+
 
 [responsive]: assets/images/am-i-responsive.png
 [navbar]: assets/images/navigation-bar.png

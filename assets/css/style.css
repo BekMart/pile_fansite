@@ -314,7 +314,7 @@ td a {
 }
 
 #invalid h3 {
-    padding: 20px, 0, 20px;
+    margin: 20px 0;
 }
 
 #success p,

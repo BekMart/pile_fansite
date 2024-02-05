@@ -236,8 +236,8 @@ ol>li {
 
 /* Tour page */
 table {
-    width: 95%%;
-    margin: 20px 20px 50px;
+    width: 100%;
+    margin: 20px 1px 50px;
 }
 
 th {
@@ -370,6 +370,10 @@ footer {
     }
 
     /* Tour section */
+    table {
+        width: 95%;
+    }
+
     td a {
         font-size: 120%;
     }

@@ -185,6 +185,7 @@ ul>li {
 
 /* Music page */
 h3 {
+    text-align: center;
     font-size: 250%;
     text-decoration: underline overline;
 }
@@ -476,10 +477,7 @@ footer {
         font-size: 200%;
     }
 
-    .right .date {
-        float: right;
-    }
-
+    .right .date,
     .right ul {
         float: right;
     }
@@ -694,6 +692,7 @@ footer {
         height: 600px;
     }
 
+    /* Updates page */
     iframe {
         height: 400px;
     }
@@ -702,23 +701,30 @@ footer {
 
 /* Media query: Desktop & larger (1200px and above) */
 @media screen and (min-width: 1200px) {
-
     fieldset {
         margin: 40px 60px 60px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     /* Updates section */
-    fieldset {
-        padding: 3% 7%;
+    #updates div img {
+        max-width: 35vw;
     }
 
-    #updates .left,
+    #updates>div {
+        padding: 0;
+    }
+
     #updates .right {
-        padding-bottom: 0;
+        position: relative;
+        top: 250px;
     }
 
     iframe {
-        width: 60%;
+        width: 40vw;
     }
 
     /* Band member pics section */

@@ -701,7 +701,7 @@ footer {
 
 /* Media query: Desktop & larger (1200px and above) */
 @media screen and (min-width: 1200px) {
-    fieldset {
+    #homepage-box {
         margin: 40px 60px 60px;
         display: flex;
         flex-direction: row;
@@ -759,11 +759,6 @@ footer {
         left: 67%;
     }
 
-    /* Music page */
-    fieldset {
-        display: unset;
-    }
-
     #album-list img,
     #other-releases img {
         float: left;
@@ -773,11 +768,6 @@ footer {
     ol {
         padding: 0 0 5% 650px;
     }
-
-    /* #button-position {
-        float: clear;
-        text-align: left;
-    } */
 
     #sphere-shaped-room-text,
     ol>li {

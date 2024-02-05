@@ -760,6 +760,10 @@ footer {
     }
 
     /* Music page */
+    fieldset {
+        display: unset;
+    }
+
     #album-list img,
     #other-releases img {
         float: left;

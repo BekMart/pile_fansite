@@ -237,7 +237,7 @@ ol>li {
 /* Tour page */
 table {
     width: 100%;
-    margin-top: 20px;
+    margin: 20px 20px 50px;
 }
 
 th {
@@ -502,8 +502,8 @@ footer {
     }
 
     iframe {
-        height: 300px;
-        width: 70%;
+        height: 400px;
+        width: 80%;
     }
 
     /* Band member pics section */
@@ -692,11 +692,6 @@ footer {
     /* Hero image */
     #hero {
         height: 600px;
-    }
-
-    /* Updates page */
-    iframe {
-        height: 400px;
     }
 }
 

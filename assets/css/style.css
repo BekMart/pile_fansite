@@ -107,16 +107,6 @@ main {
     text-align: center;
 }
 
-/* Hero section */
-#hero {
-    height: 250px;
-    width: 100%;
-    background-color: #4C3825;
-    background: url('../images/hero-image.jpeg') no-repeat top;
-    background-size: cover;
-}
-
-/* Updates section */
 h2 {
     font-size: 300%;
     font-weight: 900;
@@ -130,6 +120,16 @@ fieldset {
     background-color: #291501;
 }
 
+/* Hero section */
+#hero {
+    height: 250px;
+    width: 100%;
+    background-color: #4C3825;
+    background: url('../images/hero-image.jpeg') no-repeat top;
+    background-size: cover;
+}
+
+/* Updates section */
 #updates .left,
 #updates .right {
     padding: 2% 3% 5%;
@@ -155,7 +155,7 @@ div img {
 }
 
 iframe {
-    height: 250px;
+    height: 200px;
     width: 100%;
     border: none;
 }
@@ -361,6 +361,10 @@ footer {
 
 /* Media query: slightly bigger mobile devices (350px and above) */
 @media screen and (min-width: 350px) {
+    /* Updates section */
+    iframe {
+        height: 250px;
+    }
 
     /* Tour section */
     td a {
@@ -444,18 +448,16 @@ footer {
         display: none;
     }
 
-    /* Hero image */
-    #hero {
-        height: 500px;
-    }
-
     /* Main Content */
     main {
         /* Push main content down to accomodate the larger header */
         margin-top: 134px;
     }
 
-    /* Updates section */
+    h2 {
+        font-size: 400%;
+    }
+
     fieldset {
         margin: 0 30px 30px;
     }
@@ -464,10 +466,12 @@ footer {
         padding: 0 20px;
     }
 
-    h2 {
-        font-size: 400%;
+    /* Hero image */
+    #hero {
+        height: 500px;
     }
 
+    /* Updates section */
     .date {
         font-size: 200%;
     }
@@ -692,7 +696,6 @@ footer {
 
     iframe {
         height: 400px;
-        width: 70%;
     }
 
 }
@@ -715,7 +718,6 @@ footer {
     }
 
     iframe {
-        height: 450px;
         width: 60%;
     }
 

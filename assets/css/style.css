@@ -107,17 +107,23 @@ main {
     text-align: center;
 }
 
+fieldset {
+    border: 3px solid #F3EADC;
+    padding: 3px;
+    margin: 0 10px 10px;
+    height: max-contet;
+    background-color: #291501;
+}
+
 h2 {
     font-size: 300%;
     font-weight: 900;
 }
 
-fieldset {
-    border: 3px solid #F3EADC;
-    padding: 3px;
-    margin: 0 10px 10px;
-    height: max-content;
-    background-color: #291501;
+h3 {
+    text-align: center;
+    font-size: 250%;
+    text-decoration: underline overline;
 }
 
 /* Hero section */
@@ -184,12 +190,6 @@ ul>li {
 }
 
 /* Music page */
-h3 {
-    text-align: center;
-    font-size: 250%;
-    text-decoration: underline overline;
-}
-
 h4 {
     font-size: 200%;
     font-weight: 800;
@@ -198,6 +198,16 @@ h4 {
 h5 {
     font: 1.5rem;
     font-weight: 600;
+}
+
+#albums,
+#other-releases {
+    padding: 10px;
+}
+
+#albums div,
+#other-releases div {
+    margin-bottom: 30px;
 }
 
 #sphere-shaped-room-text,
@@ -222,16 +232,6 @@ ol>li {
     border: 5px ridge #4C3825;
     font-weight: 600;
     font-family: 'Big Shoulders Display';
-}
-
-#albums div,
-#other-releases div {
-    margin-bottom: 30px;
-}
-
-#albums,
-#other-releases {
-    padding: 10px;
 }
 
 /* Tour page */
@@ -474,6 +474,12 @@ footer {
         padding: 0 20px;
     }
 
+    h3 {
+        font-size: 300%;
+        margin: 3%;
+        font-weight: 800;
+    }
+
     /* Hero image */
     #hero {
         height: 500px;
@@ -551,16 +557,6 @@ footer {
     }
 
     /* Music page */
-    h2 {
-        font-size: 400%;
-    }
-
-    h3 {
-        font-size: 300%;
-        margin: 3%;
-        font-weight: 800;
-    }
-
     h4 {
         font-size: 250%;
     }
@@ -699,6 +695,7 @@ footer {
         height: 600px;
     }
 
+    /* Success & 404 pages */
     #success p,
     #invalid p {
         font-size: 250%;
@@ -707,6 +704,7 @@ footer {
 
 /* Media query: Desktop & larger (1200px and above) */
 @media screen and (min-width: 1200px) {
+    /* Updates section */
     #homepage-box {
         margin: 40px 60px 60px;
         display: flex;
@@ -715,7 +713,6 @@ footer {
         justify-content: space-between;
     }
 
-    /* Updates section */
     #updates div img {
         max-width: 35vw;
     }
@@ -765,6 +762,7 @@ footer {
         left: 67%;
     }
 
+    /* Music page */
     #album-list img,
     #other-releases img {
         float: left;

@@ -308,10 +308,10 @@ td a {
 /* Success & 404 error pages */
 #success,
 #invalid {
-    height: 80vh;
+    padding-bottom: 20%;
 }
 
-#success h3  {
+#success h3 {
     margin: 30px;
 }
 
@@ -364,6 +364,7 @@ footer {
 
 /* Media query: slightly bigger mobile devices (350px and above) */
 @media screen and (min-width: 350px) {
+
     /* Updates section */
     iframe {
         height: 250px;
@@ -696,6 +697,11 @@ footer {
     /* Hero image */
     #hero {
         height: 600px;
+    }
+
+    #success p,
+    #invalid p {
+        font-size: 250%;
     }
 }
 

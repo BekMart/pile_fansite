@@ -34,7 +34,7 @@ This website has been designed to create band awareness for PILE and give their 
     - On tablets, the updates are larger and staggered with more padding around them. 
     - On larger screens, the updates are staggered and in two columns to reduce the amount of negative space present on the page.  
 
-![Image of the updates section, showing a heading, placed inside a fieldset. The latest update is at the top, showing the date posted, a small amount of text stating that the band are doing a US tour, with a link to the tour page and an image of a tour poster. Staggered a little further down on the right hand side is another post of an album cover which has just been released, with a link to the album in the music page. This is also dated with a short explaination of what the post is showing.][update-screen]
+![Image of the updates section, showing a heading, placed inside a fieldset. The latest update is at the top, showing the date posted, a small amount of text stating that the band are doing a US tour, with a link to the tour page and an image of a tour poster. Staggered a little further down on the right hand side is another post of an album cover which has just been released, with a link to the album in the music page. This is also dated with a short explaination of what the post is showing.][updates-screen]
 
 ### - Band Member Images
 
@@ -101,14 +101,14 @@ This website has been designed to create band awareness for PILE and give their 
 - This gives the user piece of mind that their details have been acknowledged and logged correctly. 
 - The page layout is consistent with the rest of the website and the navigation bar is displayed so they can return and continue to browse the rest of the website easily. 
 
-![Screenshot of the success page. There is a heading saying thank you and a message 'You have been added to our mailing list! We will email you any future newsletters. Thank you for your support and keep listening!' followed by a thumbs up icon](assets/images/success-screen.png)
+![Screenshot of the success page. There is a heading saying thank you and a message 'You have been added to our mailing list! We will email you any future newsletters. Thank you for your support and keep listening!' followed by a thumbs up icon][success-screen]
 
 ### - 404 error page
 
 - If the url is entered incorrectly then a 404 error page will appear. 
 - This tells the user that the page they have entered is incorrect but offered them a link to the home page and includes the navigation bar to get to whichever part of the website they are specifically looking for. 
 
-![Screenshot of a 404 error page. There is a heading saying 'page not found', followed by a no entry symbol and a message 'Sorry, the page you are looking for cannot be found. Please check the address and try again or return to the home page here.' The word here is underlined and when clicked, takes the user to the websites landing page](assets/images/404-screen.png)
+![Screenshot of a 404 error page. There is a heading saying 'page not found', followed by a no entry symbol and a message 'Sorry, the page you are looking for cannot be found. Please check the address and try again or return to the home page here.' The word here is underlined and when clicked, takes the user to the websites landing page][404-screen]
 
 ### Features Left To Implement
 
@@ -187,7 +187,7 @@ Visit the live website [here.](https://bekmart.github.io/pile_fansite/)
 [responsive]: assets/images/am-i-responsive.png
 [navbar]: assets/images/navigation-bar.png
 [hero-image]: assets/images/hero-image.jpeg
-[update-screen]: assets/images/update-screen.png
+[updates-screen]: assets/images/updates-screen.png
 [band-member-screen]: assets/images/band-member-screen.png
 [footer-screen]: assets/images/footer-screen.png
 [music-screen]: assets/images/music-screen.png
@@ -195,5 +195,8 @@ Visit the live website [here.](https://bekmart.github.io/pile_fansite/)
 [contact-screen]: assets/images/contact-screen.png
 [subscribe-screen]: assets/images/subscribe-screen.png
 [lighthouse]: assets/images/lighthouse.png
+[success-screen]: assets/images/success-screen.png
+[404-screen]: assets/images/404-screen.png
+
 
 

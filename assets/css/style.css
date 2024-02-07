@@ -794,12 +794,18 @@ footer {
     /* Contact page */
     #follow {
         gap: 30px;
-        margin: 0 10%;
+        margin: 0 auto;
+        max-width: 930px;
         padding: 0;
     }
 
     #newsletter {
         width: 60vw;
-        padding-left: 150px;
+        padding-left: 22%;
+    }
+
+    #newsletter input {
+        left: 60%;
+        width: 300px;
     }
 }

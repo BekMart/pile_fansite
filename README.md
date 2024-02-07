@@ -119,45 +119,55 @@ This website has been designed to create band awareness for PILE and give their 
 - This would add value to the page, as the user would be able to browse and purchase audio products or apparel from one place.
 
 ## Testing
-<!--How did I test the sites functionality. Different browsers. responsive on all screen sizes. each section is readable and easy to use. All functions work.
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.-->
-- I tested that this webpage works in both Chrome and Safari. Everything worked perfectly fine on Chrome, however the Apple music links wont work in Safari.
-- I confirm that all pages on this website are responsive and look good on all standard sized screens, using the devtools device toolbar. 
-- The content of all the pages is readable, consistent in layout and easy to use intuitivaly. I have used consistent and contrasting colours throughout the website. Each page has a similar layout with the page title in the top centre of the fieldset box and any further headings in the same style. All links are clearly labelled and visible. 
-- All of the functions work as expected. All links go to the correct place and open in seperate windows if the destination is a different website. The music videos play when the user clicks on them and they are able to control the volume, mute, pause or view on full screen. The form in the contact section works as intended, the user must complete each field correctly, otherwise an indicator will show what they have missed/completed incorrectly. Once submitted a webpage is shown with a table containing the information that has been recorded via a CI website.  
+- I manually tested that this website and all linked webpages work in both Chrome and Safari. 
+    - Everything worked perfectly on Chrome.
+    - However the Apple music links wont work in Safari - I am unsure why this is.
+- I confirm that all pages on this website are responsive and look good on all standard sized screens, using the devtools device toolbar and the 'Am I Responsive' app. This was achieved by applying several media queries throughout the css stylesheet. 
+- The content of all the pages is readable, consistent in layout and easy to use intuitivaly. 
+    - I have used consistent and contrasting colours throughout the website. 
+    - Each page has a similar layout with the page title in the top centre of the fieldset box and any further headings in the same font, size and style. 
+    - All links are clearly labelled and easily visible for the user to find and use. 
+- All the functions work as expected. 
+    - All links go to the correct place and open in seperate windows if the destination is a different website, thus the user will still have access to this website via the existing open tab.
+    - The music videos play when the user clicks on them and they are able to control the volume, mute, pause, view on full screen or visit YouTube, where the video is sourced from. 
+    - The form in the newsletter section works as intended, each field must be completed and correctly, otherwise an indicator will show what the user has missed or completed incorrectly, encouraging them to fix their mistake. Once submitted correctly, the user is directed to a message on a new page which will inform them that their details have been recorded and they were successful in subscribing. The user will then be able to retrun to whichever page they want to within the website, using the familiar navigation bar.  
 
 ### Validation
 ### - HTML
-- No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
+- To validate the html pages on this website, I used the official [W3C validator](https://validator.w3.org/#validate_by_input).
+- When I first put the index.html page through the validator, there were errors as I had applied height and width dimentions for the image and video files in this page rather than via the css stylesheet. 
+- I had several errors present on my music and tour pages, due to having put an anchor element within a button element when creating links to other pages. I tried this the other way around before realising that a button element was unnecessary and that I could just style the anchor element like a button.
+- All errors have been rectified and all the html pages now pass through the validator. 
 ### - CSS
 - No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 ### - Lighthouse
 - I completed an audit through Chrome Devtools using the Lighthouse program. The results were as follows-
 
-![Screenshot of Lighthouse results. Performance is amber with result of 81. Accessability is green 100. Best Practices is green 95. SEO is green 100.][lighthouse]
+![Screenshot of Lighthouse results. Performance is amber with result of 81. Accessability is green 100. Best Practices is green 95. SEO is green 100.][lighthouse-result]
 
 ### Bugs
 ### - Solved Bugs
-<!--What bugs I found and how i fixed them.-->
-- On the music page, for the album 'In the Corners of a Sphere-Filled Room', there is no track list as it is just an experimental, instrumental piece. Therefore, there was no ordered list to target like the other albums on the page. 
-    - Initially I just targetted the p element with the same instruction as the ol elements, which was padding-left:650px; , but this just shifted the text to the right, and not alongside the album cover, with the button remaining underneath.
-    - I had to use the clear: right; command to get the text to float on the right hand side of the album which was floating on the left hand side of the page. Then the text was aligned with the rest of the page and the button sat where I would expect it to. 
+
+- On the music page, for the album 'In the Corners of a Sphere-Filled Room', there is no track list as it is an experimental, instrumental piece. Therefore, there was no ordered list to target like the other albums on the page. 
+    - Initially I just targetted the p element with the same instruction as the ol elements, which was padding-left:650px; but this just shifted the text to the right, and not alongside the album cover, with the link remaining underneath.
+    - I had to use the clear: right; command to get the text to float on the right hand side of the album, which was floating on the left hand side of the page. Then the text was aligned with the rest of the page and the link followed suit. 
+
 ### - Unfixed Bugs
-<!--You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.-->
-- On the music page, for the album 'Songs Known Together, Alone' the 'listen' button is not in the same position as the others. It sits in the middle of the page rather than in the middle of the empty space which sits on the right hand side. 
+
+- On the music page, for the album 'Songs Known Together, Alone' the 'listen' link is not in the same position as the others. It sits in the middle of the page rather than in the middle of the empty space which sits to the right hand side. 
     - In order to rectify this, I tried to give the specific button an id and move it across to the right but that didn't work. 
     - A clear value was added to a float attribute to try to resolve this but that also didn't respond. 
     - If the margin-bottom was increased further between each of the div elements which contained the album covers, then this would work but it doesn't look great with the rest of the page as it is too spaced out. 
+- On the success and 404 error pages, there is a lot of negative space at the bottom of some of the pages. 
+    - I initially had the height of these pages set to 80vh which worked well on all devices. 
+    - However, when I tested this on some of the mobile devices in landscape, the message was too large for the fieldset and wasn't visible. 
+    - I then changed the fieldset to have padding-bottom: 20%; so that there would always be space to fit the message in all screen sizes. 
+    - Doing this has resulted in some of the screens having a gap between the fieldset and the bottom margin.
 
 ## Deployment
 - The website was created in Gitpod and deployed to GitHub pages via the terminal. Once in GitHub, the steps to deploy were as follows:
-    - In the GitHub repository pile_fansite, navigate to the Settings tab
+    - In the GitHub repository 'pile_fansite', navigate to the Settings tab
     - On the left hand side, click on 'Pages' in the 'Code and automation' section
     - Ensure that 'Source' is set to 'Deploy from a branch'
     - Select 'main' in the branch section and '/(root)' in the folder section, using the drop-down menus
@@ -175,10 +185,11 @@ Visit the live website [here.](https://bekmart.github.io/pile_fansite/)
     - The social media links in the footer
 ### - Media 
 - The favicon I used was sourced from https://gauger.io/fonticon/
-- The icons that were used to represent the social media and audio platforms were from [Font Awesome](https://fontawesome.com/search)
+- The icons that were used to represent the social media, audio platforms and any decorational icons were from [Font Awesome](https://fontawesome.com/search)
 - The font was from [Google Fonts](https://fonts.google.com/specimen/Big+Shoulders+Display?preview.text=PILE%20some%20general%20text&preview.size=47&query=big&stroke=Sans+Serif)
 - The landing image of the band was found via Google on https://grandstandhq.com/wp2013/wp-content/uploads/2023/01/Pile-All-Fiction-_-Credit-to-Emme-Rovins-scaled.jpeg
 - The image of the bands tour date poster was found on PILE's existing website https://pilemusic.com/
+- The black and white image of the band from their happy new years post was from https://www.outermostagency.com/pile
 - The music videos on the updates page were sourced from YouTube https://www.youtube.com/watch?v=81pRkyNROio and https://www.youtube.com/watch?v=LDTkn22m4EE
 - The images of the individual band members was found via Google and sourced from https://digboston.com/fotobom-pile-mal-devisa-arts-at-the-armory/
 - The images of the album covers were taken from https://pile.bandcamp.com/music and https://post-trash.com/news/2020/8/24/pile-demonstration-reissue-album-review and https://thirdmanrecords.com/products/pile-live-at-third-man-records 
@@ -194,9 +205,6 @@ Visit the live website [here.](https://bekmart.github.io/pile_fansite/)
 [tour-screen]: assets/images/tour-screen.png
 [contact-screen]: assets/images/contact-screen.png
 [subscribe-screen]: assets/images/subscribe-screen.png
-[lighthouse]: assets/images/lighthouse.png
+[lighthouse-result]: assets/images/lighthouse-result.png
 [success-screen]: assets/images/success-screen.png
 [404-screen]: assets/images/404-screen.png
-
-
-

@@ -1,6 +1,6 @@
 # PILE FANSITE
 
-This website has been designed to create band awareness for PILE and give their fans a place to come and easily find out if there are any news updates, new material, upcoming events to watch them perform and an opportunity to sign up and recieve their newsletters. There are links to audio platforms to enable users to listen to PILE's music and watch their music videos. It also features links to their social media sites so users can follow and contact the band via their preffered channels.
+This website has been designed to create band awareness for PILE and give their fans a place to come and easily find out any information about the band, including news updates, new material, upcoming events to watch them perform and an opportunity to sign up and recieve their newsletters. There are links to audio platforms to enable users to listen to PILE's music and watch their music videos. It also features links to their social media sites so users can follow and contact the band via their preffered channels.
 
 ![Screenshot of my website displayed on several different sized device screens, using a web app called 'Am I Responsive', showing that my website has been adapted to look good on all devices.][responsive]
 
@@ -12,7 +12,7 @@ This website has been designed to create band awareness for PILE and give their 
 
 - The navigation bar is featured at the top, in the header of all associated pages within the site. It is fixed to enable users to easily navigate through the website at all times and creates continuity, without having to rely upon the 'back' button to navigate at any point. 
 - On the left of the header is the name of the band in big bold font, this is always visible and when clicked will return the user back to the home page. On the right, are the headings and links to the other pages within the website. The page that the user is currently on is highlighted with an underline, so the user knows where they are within the website and can easily find their way to whatever section they want, which is clearly and intuitively labelled. 
-- On mobile and smaller devices, the navigation section is within a drop down toggle, to utilise space effectively, the user will need to click on the icon of a record, which is the same as the favicon in the tab, to enable it to drop down and select which page they wish to view.
+- On mobile and smaller devices, the navigation section is within a drop down toggle, to utilise space effectively. The user will need to click on the icon of a record (the same as the favicon in the tab), to activate the drop down list and select which page they wish to view.
 
 ![Screenshot of the navigation bar, sitiuated in the header of the webpage. On the left is the bands name written in large. On the right is a list of the other page headings, (home, music, tour, contact) which represent the links ot their respective pages. Home is underlined as it is the page which is currently being viewed.][navbar]
  
@@ -24,12 +24,12 @@ This website has been designed to create band awareness for PILE and give their 
 
 ### - Updates Section
 
-- This section is a space to display any messages or news about the band. Each update has the date, some text and often an image or video file, advertising new released content. This section will enable the user to feel up to date with any current affairs relating to the band, compelling them to return regularly to check for updates. 
-- There are iframe videos of music videos that have been released. The user can click to view the video in the page, they can control the play and volume settings, enlarge it to watch in full screen or watch it via YouTube where it has been sourced from. PILE produce very abstract music videos which are aesthetically appealing, adding an attractive element to the page and drawing in the user, who will want to see their newest releases. 
-- There are links between the updates on the home page to other pages where relevent, which further assists the user in navigating fluently through the pages. 
+- This section is a space to display any messages or news about the band. Each update has the date, some text and often an image or video file, advertising newly released content. This section will enable the user to feel up to date with any current affairs relating to the band, compelling them to return regularly to check for more posts. 
+- There are iframes showing music videos that the band have released. The user can click to view the video in the page, they can control the play and volume settings, enlarge it to watch in full screen or watch it via YouTube where it has been sourced from. PILE produce very abstract music videos which are aesthetically appealing, adding an attractive element to the page and drawing in the user, who will want to see their newest releases. 
+- There are links between the updates on the home page to other pages where relevent, which further assists the user in navigating fluently through the website. 
     - There is a poster of the upcoming tour dates and a link to the tour page, where people can see the dates more clearly and click a link to purchase a ticket.
-    - On the post about a new release, there is a hyperlink to the album for users to check out on the music page. They can view the album cover, track list and visit a link to the bands spotify to hear that specific album. 
-- Responsive design has been used for different devices to organise the content so that it flows better, making it more visually pleasing to the user. 
+    - On the post advertising a new release, there is a hyperlink to the album for users to check out, on the music page. They can view the album artwork, track list and a link to visit the bands Spotify to hear that specific album. 
+- Responsive design has been applied for different devices, using flex, to organise the content so that it flows better, making it more visually pleasing to the user. 
     - On mobile and smaller screens the posts are one on top of each other. 
     - On tablets, the updates are larger and staggered with more padding around them. 
     - On larger screens, the updates are staggered and in two columns to reduce the amount of negative space present on the page.  
@@ -39,7 +39,7 @@ This website has been designed to create band awareness for PILE and give their 
 ### - Band Member Images
 
 - A section showing images of each of the band members, playing on stage with their names over their picture. This tells the user instantly who is who in the band, enabling them to put a face to a name and an instrument, just by viewing some eye catching images of the band in action. 
-- The layout of these images changes throughout different screen sizes, to make most effective use of the space available while ensuring that ther images are clearly visible to the user. 
+- The layout of these images changes throughout different screen sizes, to make most effective use of the space available while ensuring that their images are clearly visible to the user. 
     - On mobile and smaller devices, they are stacked in a column, using flex and relative and absolute positioning for the name text.
     - In tablet sized devices they are staggered, from left to right, using relative and absolute positioning and z-index, where the images overlap. 
     - On larger devices like desktops, they are lined up horizontally, using flex.
@@ -48,20 +48,21 @@ This website has been designed to create band awareness for PILE and give their 
 
 ### - The Footer
 
-- The footer is featured at the bottom of each page and has the same layout on all devices, just with different sized spacing between the different elements, depending on the width of the screen, using flex. This creates continuity and is easy for the user to use intuitively. 
+- The footer is featured at the bottom of each page and has the same layout on all devices, just with different sized spacing between the icon elements, depending on the width of the screen, using flex. This creates continuity and is easy for the user to use intuitively. 
 - In the centre at the top is a copyright message, followed by the name of the author of the website; BekMart. 
-- Underneath are links to PILE's five main social media or audio platforms which are all represented by their well-known logos; a much more attractive way of presenting the pages. When clicked, a new browser will open and take the user to the intended website, leaving a tab open on this website so that the user can return easily. 
+- Underneath are links to PILE's five main social media or audio platforms which are all represented by their well-known logos; a much more attractive way of presenting the links. When clicked, a new browser will open and take the user to the intended website, leaving a tab open on this website so that the user can return easily. 
 
 ![Screenshot of the footer. At the top in the centre it says Copyright 2024. Directly underneath it says the authors name; BekMart. Spread out evenly underneath this are the bands main social media links, which are represented by their well-known logos. (Facebook, Instagram, Twitter, Spotify, Apple Music)][footer-screen]
 
 ### - The Music Page
 
-- The Music page lists PILE's complete music catalogue. It is split into two sections; 'Albums' and 'Other Releases' and the contents is in order of their release date, with the most recent at the top. 
-- Each item in the section has the cover artwork displayed, with the title in bold, the details of the record label who produced the audio, the release date and the tracklist. The artwork is displayed big and bold as the images are abstract and alluring, giving the page a pleasent feel, encouraging the user to continue browisng the website. 
-- A bold button labelled 'listen' is clearly situated underneath each of the records, linking the user to the band's Spotify page, to the specific album they have chosen to listen to.
+- The Music page lists PILE's complete music catalogue. It is split into two sections; 'Albums' and 'Other Releases'. The contents is in order of their release date, with the most recent at the top. 
+- Each item in the sections has the cover artwork displayed, with the title in bold, the details of the record label who produced the audio, the release date and the tracklist. 
+- The artwork is displayed big and bold as the images are abstract and alluring, giving the page a pleasent feel, encouraging the user to continue browisng the website. 
+- A bold link labelled 'listen' is clearly situated underneath each of the records, directing the user to the band's Spotify page, to the specific album they have chosen to listen to.
 - After viewing this page, the user will know all of PILE's audio collection, and have access to their tracks directly via this page. 
 - This page is responsive on all sized devices. 
-    - On smaller screens, the details, track list and the Spotify link are underneath the record cover.
+    - On smaller screens, the details, track list and the Spotify link are underneath the record covers.
     - On larger screens the album information is adjascent to the cover, on the right hand side, using float.
 
 ![Screenshot of the music page. There is a heading at the top; 'Albums' which is decorated with lines above and underneath. The album cover is on the left hand side of the screen, taking up half of the page. The name of the album, the record label and date of release are detailed to the right hand side of the image in the center of the negative space. To the right of this space is the track list and underneath that is a large button to click which will take the user to a new screen to listen to the album on spotify][music-screen]
@@ -69,26 +70,26 @@ This website has been designed to create band awareness for PILE and give their 
 ### - The Tour Page
 
 - The Tour page details any upcoming events that the band are performing. It clearly states in a table format the date, venue and a link to purchase tickets from another site, which will open in a seperate window, to enable the user to easily return to this website.
-- Users will come to this page to see where and when the band are playing, they can choose the most suitable event for them and easily be led to a page to purchase a ticket. It takes any hassle away from searching through ticket vendor sites, as this is tailored towards PILE events.  
-- As PILE do not currently have any upcoming events, I have just linked the tickets buttons to a ticket website, which usually sells their event tickets when they are available. 
+- Users will come to this page to see when and where the band are playing, they can choose the most suitable event for them and easily be led to a page to purchase a ticket. It takes any hassle away from searching through ticket vendor sites, as this is tailored towards PILE events only.  
+- As PILE do not currently have any upcoming events, I have linked the tickets buttons to a ticket website, which usually sells their event tickets when they are available. 
 
 ![Screenshot of the top of the Tour Page. The page title is in the centre of the fieldset box. Inside this there are three headings at the top of the page which are defined by being in bold and decorated with lines over and underneath (date, venue, tickets). Listed underneath these headings are the relevant details. Underneath the tickets heading are large, bold, identical buttons, which when clicked take you to a website to purchase a ticket to that particular event][tour-screen]
 
 ### - The Contact Page
 
-- The contact page is formed of two sections; the follow section and the newsletter section, the headings are displayed in bold with lines over and underneath, in unison with the previous pages. 
+- The contact page is formed of two sections; the follow section and the newsletter section. The headings are displayed in bold with lines over and underneath, in unison with the previous pages. 
 
-    - The follow section is a list of nine links to the bands social media and audio platforms. The links are all set out in boxes, with the name of the website the user will be directed to clearly labelled in it. Once clicked the targetted website will open in a new window for the user to browse, whilst leaving the current tab open with this website still displayed. Enabling the user to visit other sites related to the band but also still have access to this page. 
+    - The follow section hosts a list of nine links to the bands social media and audio platforms. The links are all set out in boxes, with the name of the website the user will be directed to clearly labelled in it. Once clicked, the targetted website will open in a new window for the user to browse, whilst leaving the current tab open with this website still displayed. Enabling the user to visit other sites related to the band but still have access to this page. 
     - The boxes are all arranged on the page through responsive design using flex. 
         - On smaller devices they are in one single column.
-        - On larger devices, they appear in a grid with 3 rows and columns.
+        - On larger devices, they appear in a grid with three rows and three columns.
 
 ![Screenshot of the follow section within the contacts page. A heading of Contact is in the top, centre of the fieldset box. Underneath this is a heading of follow which is bold and decorated with lines over and underneath. There is a grid effect of nine boxes with the name of social media and audio platforms in them in rows and columns of 3 in the centre of the section][contact-screen]
 
 
 - The newsletter section is located underneath the follow section. 
-    - There is a form for the user to complete to subscribe to a newsletter, with three entry points which are clearly labelled and easy to use (First name, Last name, Email address). The subscribe button is clearly underneath the data entry points. This form is easily visible and intuitive so the user won't have any trouble in finding and completing it. 
-    - If any information is not completed in the correct format then there will be some feedback to tell the user that this hasn't worked and indicate why to encourage them to complete the form correctly. This will happen if:
+    - There is a form for the user to complete to subscribe to a newsletter, with three entry points which are clearly labelled and easy to use (First name, Last name, Email address). The subscribe button is underneath the data entry points. This form is easily visible and intuitive so the user won't have any trouble in finding and completing it. 
+    - If any information is not completed in the correct format then there will be some feedback to tell the user that it hasn't worked and indicate why, to encourage them to complete the form properly. This will happen if:
         - Any fields are empty.
         - The email address doesn't contain an @ or . in the correct places. 
     - This section is responsive on all devices, so that it fits and flows well.  
@@ -97,7 +98,7 @@ This website has been designed to create band awareness for PILE and give their 
 
 ### - Success page
 
-- Once the subscription form has been completed correctly, the success page will appear, with a message thanking them for supporting the band and ensuring them that they will recieve future newsletters. 
+- Once the subscription form has been completed correctly, the success page will appear, with a message thanking the user for supporting the band and ensuring them that they will recieve future newsletters. 
 - This gives the user piece of mind that their details have been acknowledged and logged correctly. 
 - The page layout is consistent with the rest of the website and the navigation bar is displayed so they can return and continue to browse the rest of the website easily. 
 
@@ -105,8 +106,8 @@ This website has been designed to create band awareness for PILE and give their 
 
 ### - 404 error page
 
-- If the url is entered incorrectly then a 404 error page will appear. 
-- This tells the user that the page they have entered is incorrect but offered them a link to the home page and includes the navigation bar to get to whichever part of the website they are specifically looking for. 
+- If the url is entered incorrectly then a 404 error message will appear. 
+- This tells the user that the web address they have entered is incorrect, but offers them a link back to the home page and includes the navigation bar, to get to whichever part of the website they are specifically looking for. 
 
 ![Screenshot of a 404 error page. There is a heading saying 'page not found', followed by a no entry symbol and a message 'Sorry, the page you are looking for cannot be found. Please check the address and try again or return to the home page here.' The word here is underlined and when clicked, takes the user to the websites landing page][404-screen]
 
@@ -114,16 +115,16 @@ This website has been designed to create band awareness for PILE and give their 
 
 ### - Merchandise Page
 
-- If I had more time, knowledge and a higher skill-sets then I would like to have added a merchandise page to this website. 
+- If I had more time, knowledge and a higher skill-set, then I would like to have added a merchandise page to this website. 
 - This would have involved going through payment authentication which is out of my current remit. 
 - This would add value to the page, as the user would be able to browse and purchase audio products or apparel from one place.
 
 ## Testing
 
-- I manually tested that this website and all linked webpages work in both Chrome and Safari. 
+- I manually tested that this website and all linked webpages work in both Chrome and Safari web browsers. 
     - Everything worked perfectly on Chrome.
     - However the Apple music links wont work in Safari - I am unsure why this is.
-- I confirm that all pages on this website are responsive and look good on all standard sized screens, using the devtools device toolbar and the 'Am I Responsive' app. This was achieved by applying several media queries throughout the css stylesheet. 
+- I can confirm that all pages on this website are responsive and look good on all standard sized screens. They were tested using the 'Devtools' toolbar in Chrome and the 'Am I Responsive' app. This was achieved by applying several media queries throughout the css stylesheet. 
 - The content of all the pages is readable, consistent in layout and easy to use intuitivaly. 
     - I have used consistent and contrasting colours throughout the website. 
     - Each page has a similar layout with the page title in the top centre of the fieldset box and any further headings in the same font, size and style. 
@@ -131,13 +132,13 @@ This website has been designed to create band awareness for PILE and give their 
 - All the functions work as expected. 
     - All links go to the correct place and open in seperate windows if the destination is a different website, thus the user will still have access to this website via the existing open tab.
     - The music videos play when the user clicks on them and they are able to control the volume, mute, pause, view on full screen or visit YouTube, where the video is sourced from. 
-    - The form in the newsletter section works as intended, each field must be completed and correctly, otherwise an indicator will show what the user has missed or completed incorrectly, encouraging them to fix their mistake. Once submitted correctly, the user is directed to a message on a new page which will inform them that their details have been recorded and they were successful in subscribing. The user will then be able to retrun to whichever page they want to within the website, using the familiar navigation bar.  
+    - The form in the newsletter section works as intended. Each field must be completed, otherwise an indicator will show what the user has missed or completed incorrectly, encouraging them to fix their mistake. Once submitted correctly, the user is directed to a message on a new page which will inform them that their details have been recorded and they were successful in subscribing. The user will then be able to return to whichever page they want to within the website, using the familiar navigation bar.  
 
 ### Validation
 ### - HTML
 - To validate the html pages on this website, I used the official [W3C validator](https://validator.w3.org/#validate_by_input).
 - When I first put the index.html page through the validator, there were errors as I had applied height and width dimentions for the image and video files in this page rather than via the css stylesheet. 
-- I had several errors present on my music and tour pages, due to having put an anchor element within a button element when creating links to other pages. I tried this the other way around before realising that a button element was unnecessary and that I could just style the anchor element like a button.
+- I had several errors present on the music and tour pages, due to having put an anchor element within a button element when creating links to other pages. I tried this the other way around before realising that a button element was unnecessary and that I could just style the anchor element like a button, in the css stylesheet.
 - All errors have been rectified and all the html pages now pass through the validator. 
 ### - CSS
 - No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
@@ -150,7 +151,7 @@ This website has been designed to create band awareness for PILE and give their 
 ### - Solved Bugs
 
 - On the music page, for the album 'In the Corners of a Sphere-Filled Room', there is no track list as it is an experimental, instrumental piece. Therefore, there was no ordered list to target like the other albums on the page. 
-    - Initially I just targetted the p element with the same instruction as the ol elements, which was padding-left:650px; but this just shifted the text to the right, and not alongside the album cover, with the link remaining underneath.
+    - Initially I just targetted the p element with the same instruction as the ol elements, (padding-left:650px;) but this just shifted the text to the right, and not alongside the album cover, with the link remaining underneath.
     - I had to use the clear: right; command to get the text to float on the right hand side of the album, which was floating on the left hand side of the page. Then the text was aligned with the rest of the page and the link followed suit. 
 
 ### - Unfixed Bugs
@@ -158,10 +159,10 @@ This website has been designed to create band awareness for PILE and give their 
 - On the music page, for the album 'Songs Known Together, Alone' the 'listen' link is not in the same position as the others. It sits in the middle of the page rather than in the middle of the empty space which sits to the right hand side. 
     - In order to rectify this, I tried to give the specific button an id and move it across to the right but that didn't work. 
     - A clear value was added to a float attribute to try to resolve this but that also didn't respond. 
-    - If the margin-bottom was increased further between each of the div elements which contained the album covers, then this would work but it doesn't look great with the rest of the page as it is too spaced out. 
-- On the success and 404 error pages, there is a lot of negative space at the bottom of some of the pages. 
+    - If the margin-bottom was increased further between each of the div elements which contained the album covers, then this would work but it doesn't look great with the rest of the page as it becomes too spaced out. 
+- On the success and 404 error pages, there is a lot of negative space at the bottom of some of the pages and a gap between the fieldset and the footer on others. 
     - I initially had the height of these pages set to 80vh which worked well on all devices. 
-    - However, when I tested this on some of the mobile devices in landscape, the message was too large for the fieldset and wasn't visible. 
+    - However, when I tested this on some of the mobile devices in landscape, the message was too large for the fieldset and spilled over, making some of the message not visible. 
     - I then changed the fieldset to have padding-bottom: 20%; so that there would always be space to fit the message in all screen sizes. 
     - Doing this has resulted in some of the screens having a gap between the fieldset and the bottom margin.
 

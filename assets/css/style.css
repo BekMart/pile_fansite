@@ -816,6 +816,11 @@ footer {
         clear: right;
     }
 
+     /* Tour section */
+     table {
+        width: 80%;
+    }
+
     /* Contact page */
     /* Social media section - to keep grid effect */
     #follow {

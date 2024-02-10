@@ -734,25 +734,24 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+        padding-bottom: 30px;
     }
 
-    /* Images within update section - reduce width so they will fit */
+    /* Images within update section - reduce width so they will fit in columns and make all the same size height */
     #updates div img {
-        max-width: 35vw;
+        height: 450px;
+        max-width: 37vw;
+        aspect-ratio: 5/4;
     }
 
-    #updates>div {
-        padding: 0;
-    }
-
-    /* Push alternate updates the right right hand side of the page */
+    /* Push alternate updates to the right hand side of the page */
     #updates .right {
         position: relative;
-        top: 250px;
     }
 
     /* Music videos */
     iframe {
+        height: 380px;
         width: 40vw;
     }
 
@@ -840,5 +839,25 @@ footer {
     #newsletter input {
         left: 60%;
         width: 300px;
+    }
+}
+
+/* Media query: Desktop & larger (1400px and above) */
+@media screen and (min-width: 1400px) {
+
+     /* Updates section */
+    /* Increase left and right padding to reduce negative space inbetween div elements */
+    #homepage-box {
+        padding: 20px 3%;
+    }
+
+    /* Images within update section - reduce width so they will fit in columns */
+    #updates div img {
+        max-width: 33 vw;
+    }
+
+    /* Music videos - reduce width so they will fit in columns */
+    iframe {
+        width: 37vw;
     }
 }

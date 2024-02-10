@@ -145,7 +145,7 @@ This website has been designed to create band awareness for PILE and give their 
 ### - Lighthouse
 - I completed an audit through Chrome Devtools using the Lighthouse program. The results were as follows-
 
-![Screenshot of Lighthouse results. Performance is amber with result of 81. Accessability is green 100. Best Practices is green 95. SEO is green 100.][lighthouse-result]
+![Screenshot of Lighthouse results. Performance is amber with result of 68. Accessability is green 100. Best Practices is green 95. SEO is green 100.][lighthouse]
 
 ### Bugs
 ### - Solved Bugs
@@ -206,6 +206,6 @@ Visit the live website [here.](https://bekmart.github.io/pile_fansite/)
 [tour-screen]: assets/images/tour-screen.png
 [contact-screen]: assets/images/contact-screen.png
 [subscribe-screen]: assets/images/subscribe-screen.png
-[lighthouse-result]: assets/images/lighthouse-result.png
+[lighthouse]: assets/images/lighthouse.png
 [success-screen]: assets/images/success-screen.png
 [404-screen]: assets/images/404-screen.png

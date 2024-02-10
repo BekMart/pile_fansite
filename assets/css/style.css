@@ -43,11 +43,13 @@ header {
     align-items: last baseline;
 }
 
+/* Any links in header */
 header a {
     text-decoration: none;
     color: #4C3825;
 }
 
+/* Logo */
 h1 {
     font-size: 400%;
     font-weight: 900;
@@ -60,10 +62,12 @@ h1 {
     font-weight: 600;
 }
 
+/* Page titles */
 #menu>li {
     margin-bottom: 2px;
 }
 
+/* Line under current page */
 .active {
     border-bottom: 2px solid #4C3825;
 }
@@ -84,6 +88,7 @@ nav {
     display: block;
 }
 
+/* Hide nav toggle menu until label clicked */
 #nav-toggle {
     display: none;
     position: relative;
@@ -107,6 +112,7 @@ main {
     text-align: center;
 }
 
+/* Page borders */
 fieldset {
     border: 3px solid #F3EADC;
     padding: 3px;
@@ -115,11 +121,13 @@ fieldset {
     background-color: #291501;
 }
 
+/* Page titles */
 h2 {
     font-size: 300%;
     font-weight: 900;
 }
 
+/* Section titles */
 h3 {
     text-align: center;
     font-size: 250%;
@@ -160,12 +168,14 @@ div img {
     max-width: 600px;
 }
 
+/* Music videos */
 iframe {
     height: 200px;
     width: 100%;
     border: none;
 }
 
+/* Music video credits */
 ul>li {
     list-style-type: none;
     text-align: left;
@@ -178,10 +188,12 @@ ul>li {
     padding-bottom: 5px;
 }
 
+/* Pictures of band members */
 #member-pics {
     position: relative;
 }
 
+/* Name of band members */
 .cover-text {
     position: absolute;
     color: #F3EADC;
@@ -190,16 +202,19 @@ ul>li {
 }
 
 /* Music page */
+/* Album titles */
 h4 {
     font-size: 200%;
     font-weight: 800;
 }
 
+/* Record label details and release date */
 h5 {
     font: 1.5rem;
     font-weight: 600;
 }
 
+/* Sub-sections within music page */
 #albums,
 #other-releases {
     padding: 10px;
@@ -210,6 +225,7 @@ h5 {
     margin-bottom: 30px;
 }
 
+/* Tracklist and paragraph text associatyed with albums */
 #sphere-shaped-room-text,
 ol {
     padding: 5%;
@@ -240,16 +256,19 @@ table {
     margin: 0 auto 50px;
 }
 
+/* Table headings */
 th {
     font-size: xx-large;
     font-weight: 800;
     text-decoration: underline overline;
 }
 
+/* Table data */
 td {
     padding: 5px;
 }
 
+/* Links in table */
 td a {
     font-size: 100%;
     background-color: #F3EADC;
@@ -261,6 +280,7 @@ td a {
 }
 
 /* Contact Page */
+/* Social media section */
 #follow {
     display: flex;
     flex-direction: column;
@@ -268,6 +288,7 @@ td a {
     margin-bottom: 30px;
 }
 
+/* Social media links */
 #follow a {
     align-self: center;
     width: 150px;
@@ -288,6 +309,7 @@ td a {
     font-size: 2rem;
 }
 
+/* Form input fields */
 #newsletter input {
     background-color: #F3EADC;
     padding: 5px;
@@ -326,6 +348,7 @@ td a {
     padding: 0 20px;
 }
 
+/* Icons */
 #success i {
     font-size: 300%;
     margin-top: 30px;
@@ -339,12 +362,12 @@ td a {
 /* Footer */
 footer {
     background-color: #F3EADC;
+    text-align: center;
 }
 
 /* Copyright section */
 #copyright {
     font-weight: 600;
-    text-align: center;
 }
 
 /* Social newtork icons */
@@ -375,6 +398,7 @@ footer {
         width: 95%;
     }
 
+    /* Links in table */
     td a {
         font-size: 120%;
     }
@@ -382,25 +406,15 @@ footer {
     /* Newsletter section */
     #newsletter {
         margin: 5% 5% 20% 5%;
-        text-align: left;
-        font-size: 2rem;
         position: relative;
     }
 
+    /* Move input field to the left of the label */
     #newsletter input {
-        background-color: #F3EADC;
-        padding: 5px;
         position: absolute;
-        left: 50%;
-        width: 150px;
     }
 
     #submit-button {
-        font-size: x-large;
-        color: #4C3825;
-        font-weight: 800;
-        text-transform: uppercase;
-        font-family: 'Big Shoulders Display';
         margin-top: 20px;
     }
 
@@ -428,10 +442,11 @@ footer {
         font-size: 7rem;
     }
 
+    /* Navigation bar */
+    /* Remove toggle/make navigation bar visible in a single row across the header */
     nav {
         display: block;
         position: relative;
-        box-shadow: none;
         width: fit-content;
         padding-right: .5rem;
     }
@@ -444,14 +459,17 @@ footer {
         display: flex;
     }
 
+    /* Underline appears when user hovers over menu option */
     #menu a:hover {
         border-bottom: 2px solid #4C3825;
     }
 
+    /* Page titles in navigation bar */
     #menu>li {
         padding-left: 1rem;
     }
 
+    /* Hide toggle label */
     .nav-toggle-label {
         display: none;
     }
@@ -462,10 +480,12 @@ footer {
         margin-top: 134px;
     }
 
+    /* Page titles */
     h2 {
         font-size: 400%;
     }
 
+    /* Section borders */
     fieldset {
         margin: 0 30px 30px;
     }
@@ -474,6 +494,7 @@ footer {
         padding: 0 20px;
     }
 
+    /* Section titles */
     h3 {
         font-size: 300%;
         margin: 3%;
@@ -490,11 +511,13 @@ footer {
         font-size: 200%;
     }
 
+    /* Float alternate update posts to the right */
     .right .date,
     .right ul {
         float: right;
     }
 
+    /* Clear space so elements don't have anything on the row alongside it */
     div {
         clear: both;
     }
@@ -504,14 +527,17 @@ footer {
         clear: both;
     }
 
+    /* Push div elements to the left */
     .left {
         text-align: left;
     }
 
+    /* Push div elements to the right */
     .right {
         text-align: right;
     }
 
+    /* Music videos */
     iframe {
         height: 400px;
         width: 80%;
@@ -524,12 +550,14 @@ footer {
         margin-bottom: 100px;
     }
 
+    /* Rick's name */
     .rick {
         position: absolute;
         left: 10%;
         top: 1%;
     }
 
+    /* Alex's picture */
     #alex {
         position: absolute;
         left: 63%;
@@ -537,6 +565,7 @@ footer {
         z-index: 80;
     }
 
+    /* Alex's name */
     .alex {
         position: absolute;
         left: 70%;
@@ -544,11 +573,13 @@ footer {
         z-index: 90;
     }
 
+    /* Kris' picture */
     #kris {
         position: relative;
         top: 100px;
     }
 
+    /* Kris' name */
     .kris {
         position: absolute;
         z-index: 98;
@@ -557,19 +588,23 @@ footer {
     }
 
     /* Music page */
+    /* Album titles */
     h4 {
         font-size: 250%;
     }
 
+    /* Album details */
     h5 {
         font-size: larger;
         margin-bottom: 20px;
     }
 
+    /* Tracklists */
     ol>li {
         font-size: xx-large;
     }
 
+    /* Link to Spotify */
     #album-list a {
         font-size: 300%;
         border: 6px ridge #4C3825;
@@ -581,26 +616,31 @@ footer {
         margin-top: 3%;
     }
 
+    /* Table headings */
     th {
         font-size: 300%;
         padding-bottom: 10px;
     }
 
+    /* Table data */
     td {
         font-size: 200%;
         padding-bottom: 10px;
     }
 
-    td button a {
-        font-size: 250%;
+    /* Ticket buttons in table */
+    td a {
+        font-size: 140%;
     }
 
     /* Contact Page */
+    /* Section titles */
     #contact h3 {
         margin-top: 5%;
         text-align: center;
     }
 
+    /* Create grid effect using flex for social media links */
     #follow {
         flex-direction: row;
         flex-wrap: wrap;
@@ -608,41 +648,23 @@ footer {
         padding: 0% 5% 5%;
     }
 
+    /* Style social media links */
     #follow a {
-        align-self: center;
         width: 180px;
         height: 60px;
-        background-color: #F3EADC;
-        color: #4C3825;
         font-size: xx-large;
-        text-decoration: none;
-        padding: 10px;
-        margin: 10px;
-        font-weight: 800;
     }
 
     /* Newsletter section */
     #newsletter {
         width: 70vw;
-        text-align: left;
         font-size: 2.5rem;
     }
 
+    /* Form input fields */
     #newsletter input {
-        background-color: #F3EADC;
-        padding: 5px;
-        left: 50%;
         width: 250px;
         height: 40px;
-    }
-
-    #submit-button {
-        font-size: x-large;
-        color: #4C3825;
-        font-weight: 800;
-        text-transform: uppercase;
-        font-family: 'Big Shoulders Display';
-        margin: 20px 0;
     }
 
     /* Success & 404 error pages */
@@ -657,6 +679,7 @@ footer {
         font-weight: 300;
     }
 
+    /* Icons */
     #success i,
     #invalid i {
         font-size: 500%;
@@ -667,23 +690,17 @@ footer {
 @media screen and (min-width: 960px) {
 
     /* Contact Page */
+    /* Social media section */
     #follow {
         padding: 0% 12% 5%;
     }
 
+    /* Social media links */
     #follow a {
-        align-self: center;
         width: 200px;
-        height: 60px;
-        background-color: #F3EADC;
-        color: #4C3825;
-        font-size: xx-large;
-        text-decoration: none;
-        padding: 10px;
-        margin: 10px;
-        font-weight: 800;
     }
 
+    /* Newsletter section */
     #newsletter {
         margin-bottom: 10%;
         width: 60vw;
@@ -708,7 +725,9 @@ footer {
 
 /* Media query: Desktop & larger (1200px and above) */
 @media screen and (min-width: 1200px) {
+
     /* Updates section */
+    /* Make two columns for updates using flex to use up negative space */
     #homepage-box {
         margin: 40px 60px 60px;
         display: flex;
@@ -717,6 +736,7 @@ footer {
         justify-content: space-between;
     }
 
+    /* Images within update section - reduce width so they will fit */
     #updates div img {
         max-width: 35vw;
     }
@@ -725,11 +745,13 @@ footer {
         padding: 0;
     }
 
+    /* Push alternate updates the right right hand side of the page */
     #updates .right {
         position: relative;
         top: 250px;
     }
 
+    /* Music videos */
     iframe {
         width: 40vw;
     }
@@ -744,35 +766,42 @@ footer {
         justify-content: space-between;
     }
 
+    /* Images of band members */
     #member-pics>img {
         position: initial;
         width: 33%;
     }
 
+    /* Band member name text */
     .cover-text {
         top: 0;
         left: 0;
     }
 
+    /* Rick's name text */
     .rick {
         left: 3%;
     }
 
+    /* Alex's name text */
     .alex {
         left: 35%;
     }
 
+    /* Kris' name text */
     .kris {
         left: 67%;
     }
 
     /* Music page */
+    /* Images within music page - to float to left */
     #album-list img,
     #other-releases img {
         float: left;
         padding-bottom: 150px;
     }
 
+    /* Tracklists and paragraph text associated with album */
     ol {
         padding: 0 0 5% 650px;
     }
@@ -787,11 +816,8 @@ footer {
         clear: right;
     }
 
-    button {
-        margin-top: 30px;
-    }
-
     /* Contact page */
+    /* Social media section - to keep grid effect */
     #follow {
         gap: 30px;
         margin: 0 auto;
@@ -799,11 +825,13 @@ footer {
         padding: 0;
     }
 
+    /* Newsletter section */
     #newsletter {
         width: 60vw;
         padding-left: 22%;
     }
 
+    /* Form input fields */
     #newsletter input {
         left: 60%;
         width: 300px;

@@ -184,6 +184,9 @@ Visit the live website [here.](https://bekmart.github.io/pile_fansite/)
 - I used some of the code from the CI [Love Running](https://bekmart.github.io/love_running/index.html) walkthrough project. 
     - The style and toggle in the header 
     - The social media links in the footer
+- Sources code from https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping
+    - To enable me to swap images in different media queries.
+    - This was used for the updates section, so that the full image is visible until the section needs columns and the images need to adopt the same dimensions as this image loooked distorted when I tried to fit the whole image in and resize. 
 ### - Media 
 - The favicon I used was sourced from https://gauger.io/fonticon/
 - The icons that were used to represent the social media, audio platforms and any decorational icons were from [Font Awesome](https://fontawesome.com/search)

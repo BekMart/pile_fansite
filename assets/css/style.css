@@ -168,6 +168,11 @@ div img {
     max-width: 600px;
 }
 
+/* To swap image in different media query */
+.image2 {
+    display: none;
+}
+
 /* Music videos */
 iframe {
     height: 200px;
@@ -748,6 +753,15 @@ footer {
     #updates .right {
         position: relative;
     }
+
+    /* To swap images in updates section */
+    .image1{
+        display: none;
+      }
+   
+      .image2{
+        display: block;
+      }
 
     /* Music videos */
     iframe {

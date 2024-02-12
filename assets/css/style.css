@@ -227,13 +227,13 @@ h5 {
 
 #albums div,
 #other-releases div {
-    margin-bottom: 30px;
+    margin-bottom: 15%;
 }
 
 /* Tracklist and paragraph text associatyed with albums */
 #sphere-shaped-room-text,
 ol {
-    padding: 5%;
+    padding: 3%;
 }
 
 #sphere-shaped-room-text,
@@ -601,7 +601,6 @@ footer {
     /* Album details */
     h5 {
         font-size: larger;
-        margin-bottom: 20px;
     }
 
     /* Tracklists */
@@ -818,6 +817,14 @@ footer {
     ol {
         padding: 0 0 5% 650px;
     }
+
+    /* .column2 {
+        float: right;
+        padding-right: 300px;
+        font-size: xx-large;
+        text-align: left;
+        top: 500px; 
+    } */
 
     #sphere-shaped-room-text,
     ol>li {

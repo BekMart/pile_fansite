@@ -117,7 +117,6 @@ fieldset {
     border: 3px solid #F3EADC;
     padding: 3px;
     margin: 0 10px 10px;
-    height: max-contet;
     background-color: #291501;
 }
 
@@ -866,11 +865,6 @@ footer {
     /* Increase left and right padding to reduce negative space inbetween div elements */
     #homepage-box {
         padding: 20px 3%;
-    }
-
-    /* Images within update section - reduce width so they will fit in columns */
-    #updates div img {
-        max-width: 33 vw;
     }
 
     /* Music videos - reduce width so they will fit in columns */

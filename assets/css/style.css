@@ -753,13 +753,13 @@ footer {
     }
 
     /* To swap images in updates section */
-    .image1{
+    .image1 {
         display: none;
-      }
-   
-      .image2{
+    }
+
+    .image2 {
         display: block;
-      }
+    }
 
     /* Music videos */
     iframe {
@@ -837,8 +837,8 @@ footer {
         clear: right;
     }
 
-     /* Tour section */
-     table {
+    /* Tour section */
+    table {
         width: 80%;
     }
 
@@ -864,10 +864,19 @@ footer {
     }
 }
 
+/* Media query: Desktop & larger (1375px and above) */
+@media screen and (min-width: 1375px) {
+    #sphere-shaped-room-text {
+        height: 350px;
+        margin-left: 550px;
+        clear: right;
+    }
+}
+
 /* Media query: Desktop & larger (1400px and above) */
 @media screen and (min-width: 1400px) {
 
-     /* Updates section */
+    /* Updates section */
     /* Increase left and right padding to reduce negative space inbetween div elements */
     #homepage-box {
         padding: 20px 3%;

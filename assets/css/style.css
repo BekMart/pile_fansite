@@ -221,7 +221,7 @@ h5 {
 /* Sub-sections within music page */
 #albums,
 #other-releases {
-    padding: 10px;
+    padding: 3%;
 }
 
 #albums div,
@@ -805,30 +805,36 @@ footer {
     }
 
     /* Music page */
-    /* Images within music page - to float to left */
-    #album-list img,
-    #other-releases img {
-        max-width: 700px;
-        float: left;
-        padding-bottom: 150px;
+    #albums,
+    #other-releases {
+        padding: 0;
     }
 
-    /* Tracklists and paragraph text associated with albums */
+    /* Gaps to separate slbums */
+    #albums div,
+    #other-releases div {
+        margin-bottom: 12%;
+    }
+
+    /* Images within music page - to float to left */
+    #album-list img {
+        max-width: 550px;
+        float: left;
+    }
+
+    /* Tracklists and paragraph text associated with albums - make into columns */
     ol {
-        padding: 0 0 5% 700px;
-        height: 450px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 350px;
+        padding: 3% 0 0;
     }
 
     #sphere-shaped-room-text {
-        height: 420px;
-        margin-left: 700px;
+        height: 300px;
+        margin-left: 550px;
         clear: right;
-    }
-
-    /* Pushes link to the right so that it doesn't overlap tracklist */
-    #albums a,
-    #other-releases a {
-        margin-left: 18%;
     }
 
      /* Tour section */

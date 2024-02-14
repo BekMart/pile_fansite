@@ -422,7 +422,7 @@ Visit the live website [here.](https://bekmart.github.io/pile_fansite/)
 [Back to Contents](#contents)
 <hr>
 
-[responsive]: assets/images/responsive-screen.png
+[responsive]: assets/images/responsive.png
 [navbar]: assets/images/navbar-screen.png
 [footer]: assets/images/footer-screen.png
 [hero]: assets/images/home-screen.png

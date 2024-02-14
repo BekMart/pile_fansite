@@ -293,6 +293,7 @@ td a {
     flex-direction: column;
     flex-wrap: nowrap;
     margin-bottom: 30px;
+    padding: 3%;
 }
 
 /* Social media links */
@@ -311,7 +312,8 @@ td a {
 
 /* Newsletter section */
 #newsletter {
-    margin: 0 20% 10% 5%;
+    margin: 10px 20% 30px 5%;
+    padding: 3%;
     text-align: left;
     font-size: 2rem;
 }
@@ -331,7 +333,7 @@ td a {
     font-weight: 800;
     text-transform: uppercase;
     font-family: 'Big Shoulders Display';
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 /* Success & 404 error pages */
@@ -415,21 +417,6 @@ footer {
         font-size: 120%;
     }
 
-    /* Newsletter section */
-    #newsletter {
-        margin: 5% 5% 20% 5%;
-        position: relative;
-    }
-
-    /* Move input field to the left of the label */
-    #newsletter input {
-        position: absolute;
-    }
-
-    #submit-button {
-        margin-top: 20px;
-    }
-
     /* Success & 404 error pages */
     #success p,
     #invalid p {
@@ -443,6 +430,21 @@ footer {
     /* Hero image */
     #hero {
         height: 400px;
+    }
+
+    /* Newsletter section */
+    #newsletter {
+        margin: 10px 5% 20% 5%;
+        position: relative;
+    }
+
+    /* Move input field to the left of the label */
+    #newsletter input {
+        position: absolute;
+    }
+
+    #submit-button {
+        margin-top: 20px;
     }
 }
 
@@ -648,7 +650,7 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding: 0% 5% 5%;
+        padding: 3% 5% 5%;
     }
 
     /* Style social media links */
@@ -660,6 +662,7 @@ footer {
 
     /* Newsletter section */
     #newsletter {
+        padding: 3%;
         width: 70vw;
         font-size: 2.5rem;
     }
@@ -859,15 +862,15 @@ footer {
     /* Social media section - to keep grid effect */
     #follow {
         gap: 30px;
-        margin: 0 auto 7%;
+        margin: 0 auto 5%;
         max-width: 930px;
-        padding: 0;
+        padding: 2%;
     }
 
     /* Newsletter section */
     #newsletter {
         width: 60vw;
-        padding-left: 22%;
+        padding: 2% 0 0 22%;
     }
 
     /* Form input fields */

@@ -913,10 +913,30 @@ footer {
     iframe {
         width: 37vw;
     }
+
+    /* Music page */
+    #album-list div {
+        margin-left: 3%;
+    }
+
+    /* So that button stays in same place when album title covers single line */
+    #songs-known-list {
+        height: 320px;
+    }
 }
 
-/* Media query: Desktop & larger (1537px and above) */
-@media screen and (min-width: 1537px) {
+/* Media query: Desktop & larger (1414px and above) */
+@media screen and (min-width: 1414px) {
+
+    /* Music page */
+    /* So that button stays in same place when album title covers single line */
+    #songs-known-list {
+        height: 380px;
+    }
+}
+
+/* Media query: Desktop & larger (1628px and above) */
+@media screen and (min-width: 1628px) {
 
     /* Music page */
     /* So that button stays in same place when album title covers single line */

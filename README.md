@@ -291,6 +291,8 @@ The contact page is formed of two sections; the follow section and the newslette
     - Iphone 13
     - MacBook Pro
 
+- **The website has been designed and tested for devices with screens upto 1800px wide as I have had limited access to hardware to enable me to test higher than this.**
+
 <h2 id="story-testing">User stories testing</h2>
 
 ### As a website designer..

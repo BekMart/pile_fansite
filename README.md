@@ -9,33 +9,33 @@ This project is for educational purposes. The main aim is to build a responsive 
 
 ## [Visit the live website here.](https://bekmart.github.io/pile_fansite/)
 
-# Table of Contents
+<h1 id="contents">Table of Contents</h1>
 
-- UX
-    - Website owner business goals
-    - User goals
-    - User stories
-    - Structure 
-    - Surface
-- Features
-- Technology used
-- Testing
-    - Functionality Testing
-    - Compatability Testing
-    - User stories testing
-    - Issues Found
-    - Performance Testing 
-    - Code Validation
-- Deployment
-- Credits
+- [UX](#UX)
+    - [Website owner business goals](#website-owner-goals)
+    - [User goals](#user-goals)
+    - [User stories](#user-stories)
+    - [Structure](#structure) 
+    - [Surface](#surface)
+- [Features](#features)
+- [Technology used](#technology)
+- [Testing](#testing)
+    - [Functionality Testing](#functionality)
+    - [Compatability Testing](#compatability)
+    - [User stories testing](#story-testing)
+    - [Issues Found](#issues)
+    - [Performance Testing](#performance) 
+    - [Code Validation](#validation)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
-# UX
+<h1 id="UX">UX</h1>
 
-## Website owner business goals
+<h2 id="website-owner-goals">Website owner business goals</h2>
 
 The main reason for this website is to create band awareness for PILE, by giving the user an attractive, consistent and easy to use website where they can find information about PILE in one place, including any current news and their entire back catalogue of music. Achieving this will drive more traffic to the site, increasing their following and ticket sales to their events. Users will be able to access links to follow the band via various social media platforms and subscribe to a newsletter to keep well informed of any updates.
 
-## User goals
+<h2 id="user-goals">User goals</h2>
 
 ### New user goals
 
@@ -51,7 +51,7 @@ The main reason for this website is to create band awareness for PILE, by giving
 - A portal to listen to PILE's back catalogue.
 - Links to the bands social media and audio platforms.
 
-## User stories
+<h2 id="user-stories">User stories</h2>
 
 ### As a website designer..
 
@@ -73,7 +73,7 @@ The main reason for this website is to create band awareness for PILE, by giving
 - I want details of any upcoming shows to watch them perform and where to purchase tickets.
 - I want to use this website as a portal to PILE's other social media and audio platforms. 
 
-## Structure of the website
+<h2 id="structure">Structure</h2>
 
 This website has been designed with a consistent layout to create a professional feel, with an easy to use interface on all devices. The layout has been adjusted for users to enjoy on mobile phones, tablets and desktop screens, whilst keeping the general feel consistent and intuitive. 
 - The navigation bar is visible at all times to enable users to easily move fluidly through the website.
@@ -81,7 +81,7 @@ This website has been designed with a consistent layout to create a professional
 - Main headings are highlighted in bold with lines over and underneath, using the same font-size and weight. 
 - Links are distinguished by hover effects being implemented and any links to external websites are boldly styled similarly.
 
-## Surface
+<h2 id="surface">Surface</h2>
 
 ### Colors
 
@@ -103,9 +103,12 @@ I have used consistent and contrasting colours throughout the website, to ensure
 
 ### Images
 - I sourced all images from searching on Google. 
-- Find the indiviudal website sources in the credits.
+- Find the indiviudal website sources in the [credits.](#media)
 
-# Features
+[Back to Contents](#contents)
+<hr>
+
+<h1 id="features">Features</h1>
 The website consists of six pages:
 - Four html pages which are accessible from the navigation menu.
 - A 404 error page, which displays when the url has been entered incorrectly, with a link back to the home page.
@@ -225,7 +228,10 @@ The contact page is formed of two sections; the follow section and the newslette
 - This would have involved going through payment authentication which is out of my current remit. 
 - This would add value to the page, as the user would be able to browse and purchase audio products or apparel from one place.
 
-# Technology used
+[Back to Contents](#contents)
+<hr>
+
+<h1 id="technology">Technology used</h1>
 
 ## HTML 5
 
@@ -251,9 +257,12 @@ The contact page is formed of two sections; the follow section and the newslette
 
 - Where the icons for the page were sourced from.
 
-# Testing
+[Back to Contents](#contents)
+<hr>
 
-## Functionality testing
+<h1 id="testing">Testing</h1>
+
+<h2 id="functionality">Functionality testing</h2>
  
 - I can confirm that all the functions work as expected: 
     - All links go to the correct place and open in seperate windows if the destination is a different website, thus the user will still have access to this website via the existing open tab and can return easily to maximise user exposure. 
@@ -271,7 +280,7 @@ The contact page is formed of two sections; the follow section and the newslette
         - 'Devtools' toolbar in Chrome.
         - 'Am I Responsive' app. 
 
-## Compatability Testing
+<h2 id="compatability">Compatability Testing</h2>
 
 - I manually tested that this website and all linked webpages work in both Chrome and Safari web browsers. 
     - Everything worked perfectly on Chrome.
@@ -282,7 +291,7 @@ The contact page is formed of two sections; the follow section and the newslette
     - Iphone 13
     - MacBook Pro
 
-## User stories testing
+<h2 id="story-testing">User stories testing</h2>
 
 ### As a website designer..
 
@@ -317,7 +326,7 @@ The contact page is formed of two sections; the follow section and the newslette
 - I want to use this website as a portal to PILE's other social media and audio platforms. 
     - Returning users can use this website as a portal to other links relating to the band. 
 
-## Issues Found
+<h2 id="issues">Issues Found</h2>
 
 ### Solved Bugs
 
@@ -339,14 +348,16 @@ The contact page is formed of two sections; the follow section and the newslette
     - I then changed the fieldset to have 'padding-bottom: 20%;' so that there would always be space to fit the message in all screen sizes. 
     - Doing this has resulted in some of the screens having a gap between the fieldset and the bottom margin.
 
-## Performance Testing 
+<h2 id="performance">Performance Testing</h2>
 
 ### Lighthouse
-- I completed an audit through Chrome Devtools using the Lighthouse program. The results were as follows-
+- I completed an audit through Chrome Devtools using the Lighthouse program. 
+- The performance value sometimes varies.
+- The results were as follows when last checked-
 
-![Screenshot of Lighthouse results. Performance is green with a score of 92 . Accessability is green with a score of 100. Best Practices is green with a score of 95. SEO is green with a score of 100.][lighthouse]
+![Screenshot of Lighthouse results. Performance is amber with a score of 70. Accessability is green with a score of 100. Best Practices is green with a score of 95. SEO is green with a score of 100.][lighthouse]
 
-## Code Validation
+<h2 id="validation">Code Validation</h2>
 
 ### HTML
 
@@ -360,7 +371,10 @@ To validate the html pages on this website, I used the official [W3C validator](
 
 - No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-# Deployment
+[Back to Contents](#contents)
+<hr>
+
+<h1 id="deployment">Deployment</h1>
 
 - The website was created in Gitpod and deployed to GitHub pages via the terminal. Once in GitHub, the steps to deploy were as follows:
     - In the GitHub repository 'pile_fansite', navigate to the Settings tab
@@ -374,7 +388,10 @@ To validate the html pages on this website, I used the official [W3C validator](
 
 Visit the live website [here.](https://bekmart.github.io/pile_fansite/)
 
-# Credits
+[Back to Contents](#contents)
+<hr>
+
+<h1 id="credits">Credits</h1>
 
 ## Code
 
@@ -385,12 +402,12 @@ Visit the live website [here.](https://bekmart.github.io/pile_fansite/)
     - The style and toggle in the header 
     - The social media links in the footer
 
-##  Content
+## Content
 
 - Content was sourced from [wikipedia](https://en.wikipedia.org/wiki/Pile_(band))
 - Content sourced from PILE's existing website https://pilemusic.com/
 
-## Media
+<h2 id="media">Media</h2>
 
 - The favicon I used was sourced from https://gauger.io/fonticon/
 - The icons that were used to represent the social media, audio platforms and any decorational icons were from [Font Awesome](https://fontawesome.com/search)
@@ -402,6 +419,8 @@ Visit the live website [here.](https://bekmart.github.io/pile_fansite/)
 - The images of the individual band members was found via Google and sourced from https://digboston.com/fotobom-pile-mal-devisa-arts-at-the-armory/
 - The images of the album covers were taken from https://pile.bandcamp.com/music and https://post-trash.com/news/2020/8/24/pile-demonstration-reissue-album-review and https://thirdmanrecords.com/products/pile-live-at-third-man-records 
 
+[Back to Contents](#contents)
+<hr>
 
 [responsive]: assets/images/responsive-screen.png
 [navbar]: assets/images/navbar-screen.png

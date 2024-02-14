@@ -131,6 +131,7 @@ h3 {
     text-align: center;
     font-size: 250%;
     text-decoration: underline overline;
+    padding: 3%;
 }
 
 /* Hero section */
@@ -226,12 +227,13 @@ h5 {
 
 #albums div,
 #other-releases div {
-    margin-bottom: 15%;
+    margin-bottom: 25%;
 }
 
 /* Tracklist and paragraph text associatyed with albums */
 #sphere-shaped-room-text,
 ol {
+    margin-top: 3%;
     padding: 3%;
 }
 
@@ -258,6 +260,7 @@ ol>li {
 table {
     width: 100%;
     margin: 0 auto 50px;
+    padding-top: 3%;
 }
 
 /* Table headings */
@@ -318,7 +321,7 @@ td a {
     background-color: #F3EADC;
     padding: 5px;
     left: 50%;
-    width: 150px;
+    width: 170px;
     margin-bottom: 0;
 }
 
@@ -400,6 +403,11 @@ footer {
     /* Tour section */
     table {
         width: 95%;
+    }
+
+    /* Table headings */
+    th {
+        font-size: 250%;
     }
 
     /* Links in table */
@@ -486,12 +494,12 @@ footer {
 
     /* Page titles */
     h2 {
-        font-size: 400%;
+        font-size: 550%;
     }
 
     /* Section borders */
     fieldset {
-        margin: 0 30px 30px;
+        margin: 0 40px 40px;
     }
 
     fieldset div {
@@ -500,8 +508,7 @@ footer {
 
     /* Section titles */
     h3 {
-        font-size: 300%;
-        margin: 3%;
+        font-size: 350%;
         font-weight: 800;
     }
 
@@ -594,12 +601,12 @@ footer {
     /* Music page */
     /* Album titles */
     h4 {
-        font-size: 250%;
+        font-size: 300%;
     }
 
     /* Album details */
     h5 {
-        font-size: larger;
+        font-size: x-large;
     }
 
     /* Tracklists */
@@ -611,17 +618,16 @@ footer {
     #album-list a {
         font-size: 300%;
         border: 6px ridge #4C3825;
-        margin: 5%;
     }
 
     /* Tour page */
     table {
-        margin-top: 3%;
+        margin: 0 auto 5%;
     }
 
     /* Table headings */
     th {
-        font-size: 300%;
+        font-size: 350%;
         padding-bottom: 10px;
     }
 
@@ -637,12 +643,6 @@ footer {
     }
 
     /* Contact Page */
-    /* Section titles */
-    #contact h3 {
-        margin-top: 5%;
-        text-align: center;
-    }
-
     /* Create grid effect using flex for social media links */
     #follow {
         flex-direction: row;
@@ -729,10 +729,15 @@ footer {
 /* Media query: Desktop & larger (1200px and above) */
 @media screen and (min-width: 1200px) {
 
+    /* Page titles */
+    h2 {
+        font-size: 700%;
+    }
+
     /* Updates section */
     /* Make two columns for updates using flex to use up negative space */
     #homepage-box {
-        margin: 40px 60px 60px;
+        margin: 0 60px 60px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -824,15 +829,23 @@ footer {
 
     /* Tracklists and paragraph text associated with albums - make into columns */
     ol {
+        margin-top: 5px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        height: 350px;
-        padding: 3% 0 0;
+        height: 380px;
+        padding: 0;
+    }
+
+    /* Keep button in same place when album title is on two rows */
+    #songs-known-list,
+    #third-man-list {
+        height: 320px;
     }
 
     #sphere-shaped-room-text {
-        height: 300px;
+        margin-top: 5px;
+        height: 320px;
         margin-left: 550px;
         clear: right;
     }
@@ -846,7 +859,7 @@ footer {
     /* Social media section - to keep grid effect */
     #follow {
         gap: 30px;
-        margin: 0 auto;
+        margin: 0 auto 7%;
         max-width: 930px;
         padding: 0;
     }
@@ -864,12 +877,23 @@ footer {
     }
 }
 
-/* Media query: Desktop & larger (1375px and above) */
-@media screen and (min-width: 1375px) {
-    #sphere-shaped-room-text {
-        height: 350px;
-        margin-left: 550px;
-        clear: right;
+/* Media query: Desktop & larger (1243px and above) */
+@media screen and (min-width: 1243px) {
+
+    /* Music page */
+    /* So that button stays in same place when album title covers single line */
+    #third-man-list {
+        height: 380px;
+    }
+}
+
+/* Media query: Desktop & larger (1336px and above) */
+@media screen and (min-width: 1336px) {
+
+    /* Music page */
+    /* So that button stays in same place when album title covers single line */
+    #songs-known-list {
+        height: 380px;
     }
 }
 
@@ -885,5 +909,15 @@ footer {
     /* Music videos - reduce width so they will fit in columns */
     iframe {
         width: 37vw;
+    }
+}
+
+/* Media query: Desktop & larger (1537px and above) */
+@media screen and (min-width: 1537px) {
+
+    /* Music page */
+    /* So that button stays in same place when album title covers single line */
+    #sphere-shaped-room-text {
+        height: 390px;
     }
 }
